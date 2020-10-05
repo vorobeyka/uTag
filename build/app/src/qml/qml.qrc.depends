@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>FileEditor.qml</file>
+        <file>FileEditorLabel.qml</file>
+        <file>FileEditorText.qml</file>
+        <file>FoldersList.qml</file>
+        <file>MainPage.qml</file>
+        <file>MusicsList.qml</file>
+        <file>SettingsPage.qml</file>
+        <file>../../resources/folder-icon.png</file>
+        <file>../../resources/open-folder-icon.png</file>
+        <file>../../resources/settings-icon.png</file>
+        <file>SettingsText.qml</file>
+        <file>SettingsDarkPickerBg.qml</file>
+        <file>SettingsLightPickerBg.qml</file>
+        <file>SettingsThemeColor.qml</file>
+        <file>MainSortButton.qml</file>
+        <file>MainSortPopup.qml</file>
+        <file>../../resources/logo.jpg</file>
+        <file>../../resources/logo-music.png</file>
+        <file>../../resources/music-note.png</file>
+        <file>../../resources/upload.png</file>
+        <file>../../resources/download.png</file>
+    </qresource>
+</RCC>

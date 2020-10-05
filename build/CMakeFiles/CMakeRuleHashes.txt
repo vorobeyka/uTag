@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+fb9698359f364edd96c4c006e6182aaf 3dparty/taglib/CMakeFiles/docs
+b0bfd6cf98d8d2523061e5f95bf9bfc4 3dparty/taglib/CMakeFiles/uninstall
+0d3a18c695f5c0eed78c8262739550bd app/CMakeFiles/utag_autogen
+f07a2e74c9ccc45a7ad1d152230a1dec app/qrc_qml.cpp

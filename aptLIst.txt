@@ -1,0 +1,7 @@
+sudo apt-get install qml-module-qtquick2 && 
+sudo apt-get install qml-module-qtquick-controls && 
+sudo apt-get install qml-module-qtquick-controls2 && 
+sudo apt-get install qml-module-qtquick-window2 && 
+sudo apt-get upgrade qml-module-qtquick-dialogs && 
+sudo apt-get upgrade qml-module-qtquick-layouts &&
+sudo apt-get upgrade qml-module-qtgraphicaleffects
