@@ -28,10 +28,10 @@ app/CMakeFiles/utag.dir/main.cpp.o
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
  ../build/3dparty/taglib/taglib_config.h
- /home/vorobey/ucode/utag/app/main.cpp
- /home/vorobey/ucode/utag/app/src/AudioReader.h
- /home/vorobey/ucode/utag/app/src/LiveImage.h
- /home/vorobey/ucode/utag/app/src/appcore.h
+ /home/vorobey/ucode/myUtag/app/main.cpp
+ /home/vorobey/ucode/myUtag/app/src/AudioReader.h
+ /home/vorobey/ucode/myUtag/app/src/LiveImage.h
+ /home/vorobey/ucode/myUtag/app/src/appcore.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDate
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFile
@@ -295,7 +295,7 @@ app/CMakeFiles/utag.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtQuick/qtquick-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtQuick/qtquickglobal.h
 app/CMakeFiles/utag.dir/qrc_qml.cpp.o
- /home/vorobey/ucode/utag/build/app/qrc_qml.cpp
+ /home/vorobey/ucode/myUtag/build/app/qrc_qml.cpp
 app/CMakeFiles/utag.dir/src/AudioReader.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/fileref.h
@@ -324,8 +324,8 @@ app/CMakeFiles/utag.dir/src/AudioReader.cpp.o
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
  ../build/3dparty/taglib/taglib_config.h
- /home/vorobey/ucode/utag/app/src/AudioReader.cpp
- /home/vorobey/ucode/utag/app/src/AudioReader.h
+ /home/vorobey/ucode/myUtag/app/src/AudioReader.cpp
+ /home/vorobey/ucode/myUtag/app/src/AudioReader.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDate
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileInfoList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
@@ -543,8 +543,8 @@ app/CMakeFiles/utag.dir/src/AudioReader.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 app/CMakeFiles/utag.dir/src/LiveImage.cpp.o
- /home/vorobey/ucode/utag/app/src/LiveImage.cpp
- /home/vorobey/ucode/utag/app/src/LiveImage.h
+ /home/vorobey/ucode/myUtag/app/src/LiveImage.cpp
+ /home/vorobey/ucode/myUtag/app/src/LiveImage.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -698,9 +698,9 @@ app/CMakeFiles/utag.dir/src/appcore.cpp.o
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
  ../build/3dparty/taglib/taglib_config.h
- /home/vorobey/ucode/utag/app/src/AudioReader.h
- /home/vorobey/ucode/utag/app/src/appcore.cpp
- /home/vorobey/ucode/utag/app/src/appcore.h
+ /home/vorobey/ucode/myUtag/app/src/AudioReader.h
+ /home/vorobey/ucode/myUtag/app/src/appcore.cpp
+ /home/vorobey/ucode/myUtag/app/src/appcore.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDate
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFile
@@ -969,10 +969,10 @@ app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o
  ../app/src/LiveImage.h
  ../app/src/appcore.h
  ../build/3dparty/taglib/taglib_config.h
- /home/vorobey/ucode/utag/build/app/utag_autogen/UVLADIE3JM/moc_AudioReader.cpp
- /home/vorobey/ucode/utag/build/app/utag_autogen/UVLADIE3JM/moc_LiveImage.cpp
- /home/vorobey/ucode/utag/build/app/utag_autogen/UVLADIE3JM/moc_appcore.cpp
- /home/vorobey/ucode/utag/build/app/utag_autogen/mocs_compilation.cpp
+ /home/vorobey/ucode/myUtag/build/app/utag_autogen/UVLADIE3JM/moc_AudioReader.cpp
+ /home/vorobey/ucode/myUtag/build/app/utag_autogen/UVLADIE3JM/moc_LiveImage.cpp
+ /home/vorobey/ucode/myUtag/build/app/utag_autogen/UVLADIE3JM/moc_appcore.cpp
+ /home/vorobey/ucode/myUtag/build/app/utag_autogen/mocs_compilation.cpp
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDate
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFile

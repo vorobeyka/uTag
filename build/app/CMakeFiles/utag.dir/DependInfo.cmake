@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vorobey/ucode/utag/app/main.cpp" "/home/vorobey/ucode/utag/build/app/CMakeFiles/utag.dir/main.cpp.o"
-  "/home/vorobey/ucode/utag/build/app/qrc_qml.cpp" "/home/vorobey/ucode/utag/build/app/CMakeFiles/utag.dir/qrc_qml.cpp.o"
-  "/home/vorobey/ucode/utag/app/src/AudioReader.cpp" "/home/vorobey/ucode/utag/build/app/CMakeFiles/utag.dir/src/AudioReader.cpp.o"
-  "/home/vorobey/ucode/utag/app/src/LiveImage.cpp" "/home/vorobey/ucode/utag/build/app/CMakeFiles/utag.dir/src/LiveImage.cpp.o"
-  "/home/vorobey/ucode/utag/app/src/appcore.cpp" "/home/vorobey/ucode/utag/build/app/CMakeFiles/utag.dir/src/appcore.cpp.o"
-  "/home/vorobey/ucode/utag/build/app/utag_autogen/mocs_compilation.cpp" "/home/vorobey/ucode/utag/build/app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o"
+  "/home/vorobey/ucode/myUtag/app/main.cpp" "/home/vorobey/ucode/myUtag/build/app/CMakeFiles/utag.dir/main.cpp.o"
+  "/home/vorobey/ucode/myUtag/build/app/qrc_qml.cpp" "/home/vorobey/ucode/myUtag/build/app/CMakeFiles/utag.dir/qrc_qml.cpp.o"
+  "/home/vorobey/ucode/myUtag/app/src/AudioReader.cpp" "/home/vorobey/ucode/myUtag/build/app/CMakeFiles/utag.dir/src/AudioReader.cpp.o"
+  "/home/vorobey/ucode/myUtag/app/src/LiveImage.cpp" "/home/vorobey/ucode/myUtag/build/app/CMakeFiles/utag.dir/src/LiveImage.cpp.o"
+  "/home/vorobey/ucode/myUtag/app/src/appcore.cpp" "/home/vorobey/ucode/myUtag/build/app/CMakeFiles/utag.dir/src/appcore.cpp.o"
+  "/home/vorobey/ucode/myUtag/build/app/utag_autogen/mocs_compilation.cpp" "/home/vorobey/ucode/myUtag/build/app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,6 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_CORE_LIB"
   "QT_GUI_LIB"
   "QT_NETWORK_LIB"
+  "QT_NO_DEBUG"
   "QT_QMLMODELS_LIB"
   "QT_QML_LIB"
   "QT_QUICK_LIB"
@@ -61,7 +62,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/vorobey/ucode/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/DependInfo.cmake"
+  "/home/vorobey/ucode/myUtag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

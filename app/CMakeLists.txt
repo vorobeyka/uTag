@@ -7,6 +7,10 @@ set(TAGLIB_PATH "../3dparty/taglib/taglib")
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
 
+if(APPLE)
+    set(CMAKE_PREFIX_PATH="~/.brew/Cellar/qt/5.15.1//lib/cmake:$CMAKE_PREFIX_PATH")
+endif()
+
 
 project(${NAME})
 

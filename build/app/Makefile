@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vorobey/ucode/utag
+CMAKE_SOURCE_DIR = /home/vorobey/ucode/myUtag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vorobey/ucode/utag/build
+CMAKE_BINARY_DIR = /home/vorobey/ucode/myUtag/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/utag/build/CMakeFiles /home/vorobey/ucode/utag/build/app/CMakeFiles/progress.marks
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/utag/build/CMakeFiles 0
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/myUtag/build/CMakeFiles /home/vorobey/ucode/myUtag/build/app/CMakeFiles/progress.marks
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/myUtag/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 app/clean
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/CMakeFiles/utag.dir/rule:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/utag.dir/rule
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/utag.dir/rule
 .PHONY : app/CMakeFiles/utag.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ utag: app/CMakeFiles/utag.dir/rule
 
 # fast build rule for target.
 utag/fast:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/build
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/build
 .PHONY : utag/fast
 
 # Convenience name for target.
 app/CMakeFiles/utag_autogen.dir/rule:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/utag_autogen.dir/rule
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/utag_autogen.dir/rule
 .PHONY : app/CMakeFiles/utag_autogen.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ utag_autogen: app/CMakeFiles/utag_autogen.dir/rule
 
 # fast build rule for target.
 utag_autogen/fast:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag_autogen.dir/build.make app/CMakeFiles/utag_autogen.dir/build
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag_autogen.dir/build.make app/CMakeFiles/utag_autogen.dir/build
 .PHONY : utag_autogen/fast
 
 main.o: main.cpp.o
@@ -192,7 +192,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/main.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -201,7 +201,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/main.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -210,7 +210,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/main.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 qrc_qml.o: qrc_qml.cpp.o
@@ -219,7 +219,7 @@ qrc_qml.o: qrc_qml.cpp.o
 
 # target to build an object file
 qrc_qml.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/qrc_qml.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/qrc_qml.cpp.o
 .PHONY : qrc_qml.cpp.o
 
 qrc_qml.i: qrc_qml.cpp.i
@@ -228,7 +228,7 @@ qrc_qml.i: qrc_qml.cpp.i
 
 # target to preprocess a source file
 qrc_qml.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/qrc_qml.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/qrc_qml.cpp.i
 .PHONY : qrc_qml.cpp.i
 
 qrc_qml.s: qrc_qml.cpp.s
@@ -237,7 +237,7 @@ qrc_qml.s: qrc_qml.cpp.s
 
 # target to generate assembly for a file
 qrc_qml.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/qrc_qml.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/qrc_qml.cpp.s
 .PHONY : qrc_qml.cpp.s
 
 src/AudioReader.o: src/AudioReader.cpp.o
@@ -246,7 +246,7 @@ src/AudioReader.o: src/AudioReader.cpp.o
 
 # target to build an object file
 src/AudioReader.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/AudioReader.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/AudioReader.cpp.o
 .PHONY : src/AudioReader.cpp.o
 
 src/AudioReader.i: src/AudioReader.cpp.i
@@ -255,7 +255,7 @@ src/AudioReader.i: src/AudioReader.cpp.i
 
 # target to preprocess a source file
 src/AudioReader.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/AudioReader.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/AudioReader.cpp.i
 .PHONY : src/AudioReader.cpp.i
 
 src/AudioReader.s: src/AudioReader.cpp.s
@@ -264,7 +264,7 @@ src/AudioReader.s: src/AudioReader.cpp.s
 
 # target to generate assembly for a file
 src/AudioReader.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/AudioReader.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/AudioReader.cpp.s
 .PHONY : src/AudioReader.cpp.s
 
 src/LiveImage.o: src/LiveImage.cpp.o
@@ -273,7 +273,7 @@ src/LiveImage.o: src/LiveImage.cpp.o
 
 # target to build an object file
 src/LiveImage.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/LiveImage.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/LiveImage.cpp.o
 .PHONY : src/LiveImage.cpp.o
 
 src/LiveImage.i: src/LiveImage.cpp.i
@@ -282,7 +282,7 @@ src/LiveImage.i: src/LiveImage.cpp.i
 
 # target to preprocess a source file
 src/LiveImage.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/LiveImage.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/LiveImage.cpp.i
 .PHONY : src/LiveImage.cpp.i
 
 src/LiveImage.s: src/LiveImage.cpp.s
@@ -291,7 +291,7 @@ src/LiveImage.s: src/LiveImage.cpp.s
 
 # target to generate assembly for a file
 src/LiveImage.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/LiveImage.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/LiveImage.cpp.s
 .PHONY : src/LiveImage.cpp.s
 
 src/appcore.o: src/appcore.cpp.o
@@ -300,7 +300,7 @@ src/appcore.o: src/appcore.cpp.o
 
 # target to build an object file
 src/appcore.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/appcore.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/appcore.cpp.o
 .PHONY : src/appcore.cpp.o
 
 src/appcore.i: src/appcore.cpp.i
@@ -309,7 +309,7 @@ src/appcore.i: src/appcore.cpp.i
 
 # target to preprocess a source file
 src/appcore.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/appcore.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/appcore.cpp.i
 .PHONY : src/appcore.cpp.i
 
 src/appcore.s: src/appcore.cpp.s
@@ -318,7 +318,7 @@ src/appcore.s: src/appcore.cpp.s
 
 # target to generate assembly for a file
 src/appcore.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/appcore.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/src/appcore.cpp.s
 .PHONY : src/appcore.cpp.s
 
 utag_autogen/mocs_compilation.o: utag_autogen/mocs_compilation.cpp.o
@@ -327,7 +327,7 @@ utag_autogen/mocs_compilation.o: utag_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 utag_autogen/mocs_compilation.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o
 .PHONY : utag_autogen/mocs_compilation.cpp.o
 
 utag_autogen/mocs_compilation.i: utag_autogen/mocs_compilation.cpp.i
@@ -336,7 +336,7 @@ utag_autogen/mocs_compilation.i: utag_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 utag_autogen/mocs_compilation.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.i
 .PHONY : utag_autogen/mocs_compilation.cpp.i
 
 utag_autogen/mocs_compilation.s: utag_autogen/mocs_compilation.cpp.s
@@ -345,7 +345,7 @@ utag_autogen/mocs_compilation.s: utag_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 utag_autogen/mocs_compilation.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.s
 .PHONY : utag_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -391,6 +391,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

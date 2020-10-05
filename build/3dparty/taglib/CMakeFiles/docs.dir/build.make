@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vorobey/ucode/utag
+CMAKE_SOURCE_DIR = /home/vorobey/ucode/myUtag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vorobey/ucode/utag/build
+CMAKE_BINARY_DIR = /home/vorobey/ucode/myUtag/build
 
 # Utility rule file for docs.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/vorobey/ucode/utag/build
 include 3dparty/taglib/CMakeFiles/docs.dir/progress.make
 
 3dparty/taglib/CMakeFiles/docs:
-	cd /home/vorobey/ucode/utag/build/3dparty/taglib && doxygen
+	cd /home/vorobey/ucode/myUtag/build/3dparty/taglib && doxygen
 
 docs: 3dparty/taglib/CMakeFiles/docs
 docs: 3dparty/taglib/CMakeFiles/docs.dir/build.make
@@ -67,10 +67,10 @@ docs: 3dparty/taglib/CMakeFiles/docs.dir/build.make
 .PHONY : 3dparty/taglib/CMakeFiles/docs.dir/build
 
 3dparty/taglib/CMakeFiles/docs.dir/clean:
-	cd /home/vorobey/ucode/utag/build/3dparty/taglib && $(CMAKE_COMMAND) -P CMakeFiles/docs.dir/cmake_clean.cmake
+	cd /home/vorobey/ucode/myUtag/build/3dparty/taglib && $(CMAKE_COMMAND) -P CMakeFiles/docs.dir/cmake_clean.cmake
 .PHONY : 3dparty/taglib/CMakeFiles/docs.dir/clean
 
 3dparty/taglib/CMakeFiles/docs.dir/depend:
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vorobey/ucode/utag /home/vorobey/ucode/utag/3dparty/taglib /home/vorobey/ucode/utag/build /home/vorobey/ucode/utag/build/3dparty/taglib /home/vorobey/ucode/utag/build/3dparty/taglib/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vorobey/ucode/myUtag /home/vorobey/ucode/myUtag/3dparty/taglib /home/vorobey/ucode/myUtag/build /home/vorobey/ucode/myUtag/build/3dparty/taglib /home/vorobey/ucode/myUtag/build/3dparty/taglib/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3dparty/taglib/CMakeFiles/docs.dir/depend
 

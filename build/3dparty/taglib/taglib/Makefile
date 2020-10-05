@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vorobey/ucode/utag
+CMAKE_SOURCE_DIR = /home/vorobey/ucode/myUtag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vorobey/ucode/utag/build
+CMAKE_BINARY_DIR = /home/vorobey/ucode/myUtag/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/utag/build/CMakeFiles /home/vorobey/ucode/utag/build/3dparty/taglib/taglib/CMakeFiles/progress.marks
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/taglib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/utag/build/CMakeFiles 0
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/myUtag/build/CMakeFiles /home/vorobey/ucode/myUtag/build/3dparty/taglib/taglib/CMakeFiles/progress.marks
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/taglib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/myUtag/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/taglib/clean
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/taglib/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/taglib/preinstall
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/taglib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/taglib/preinstall
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/taglib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3dparty/taglib/taglib/CMakeFiles/tag.dir/rule:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/taglib/CMakeFiles/tag.dir/rule
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/taglib/CMakeFiles/tag.dir/rule
 .PHONY : 3dparty/taglib/taglib/CMakeFiles/tag.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ tag: 3dparty/taglib/taglib/CMakeFiles/tag.dir/rule
 
 # fast build rule for target.
 tag/fast:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/build
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/build
 .PHONY : tag/fast
 
 ape/apefile.o: ape/apefile.cpp.o
@@ -177,7 +177,7 @@ ape/apefile.o: ape/apefile.cpp.o
 
 # target to build an object file
 ape/apefile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.o
 .PHONY : ape/apefile.cpp.o
 
 ape/apefile.i: ape/apefile.cpp.i
@@ -186,7 +186,7 @@ ape/apefile.i: ape/apefile.cpp.i
 
 # target to preprocess a source file
 ape/apefile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.i
 .PHONY : ape/apefile.cpp.i
 
 ape/apefile.s: ape/apefile.cpp.s
@@ -195,7 +195,7 @@ ape/apefile.s: ape/apefile.cpp.s
 
 # target to generate assembly for a file
 ape/apefile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.s
 .PHONY : ape/apefile.cpp.s
 
 ape/apefooter.o: ape/apefooter.cpp.o
@@ -204,7 +204,7 @@ ape/apefooter.o: ape/apefooter.cpp.o
 
 # target to build an object file
 ape/apefooter.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefooter.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefooter.cpp.o
 .PHONY : ape/apefooter.cpp.o
 
 ape/apefooter.i: ape/apefooter.cpp.i
@@ -213,7 +213,7 @@ ape/apefooter.i: ape/apefooter.cpp.i
 
 # target to preprocess a source file
 ape/apefooter.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefooter.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefooter.cpp.i
 .PHONY : ape/apefooter.cpp.i
 
 ape/apefooter.s: ape/apefooter.cpp.s
@@ -222,7 +222,7 @@ ape/apefooter.s: ape/apefooter.cpp.s
 
 # target to generate assembly for a file
 ape/apefooter.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefooter.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefooter.cpp.s
 .PHONY : ape/apefooter.cpp.s
 
 ape/apeitem.o: ape/apeitem.cpp.o
@@ -231,7 +231,7 @@ ape/apeitem.o: ape/apeitem.cpp.o
 
 # target to build an object file
 ape/apeitem.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeitem.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeitem.cpp.o
 .PHONY : ape/apeitem.cpp.o
 
 ape/apeitem.i: ape/apeitem.cpp.i
@@ -240,7 +240,7 @@ ape/apeitem.i: ape/apeitem.cpp.i
 
 # target to preprocess a source file
 ape/apeitem.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeitem.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeitem.cpp.i
 .PHONY : ape/apeitem.cpp.i
 
 ape/apeitem.s: ape/apeitem.cpp.s
@@ -249,7 +249,7 @@ ape/apeitem.s: ape/apeitem.cpp.s
 
 # target to generate assembly for a file
 ape/apeitem.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeitem.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeitem.cpp.s
 .PHONY : ape/apeitem.cpp.s
 
 ape/apeproperties.o: ape/apeproperties.cpp.o
@@ -258,7 +258,7 @@ ape/apeproperties.o: ape/apeproperties.cpp.o
 
 # target to build an object file
 ape/apeproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.o
 .PHONY : ape/apeproperties.cpp.o
 
 ape/apeproperties.i: ape/apeproperties.cpp.i
@@ -267,7 +267,7 @@ ape/apeproperties.i: ape/apeproperties.cpp.i
 
 # target to preprocess a source file
 ape/apeproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.i
 .PHONY : ape/apeproperties.cpp.i
 
 ape/apeproperties.s: ape/apeproperties.cpp.s
@@ -276,7 +276,7 @@ ape/apeproperties.s: ape/apeproperties.cpp.s
 
 # target to generate assembly for a file
 ape/apeproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.s
 .PHONY : ape/apeproperties.cpp.s
 
 ape/apetag.o: ape/apetag.cpp.o
@@ -285,7 +285,7 @@ ape/apetag.o: ape/apetag.cpp.o
 
 # target to build an object file
 ape/apetag.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apetag.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apetag.cpp.o
 .PHONY : ape/apetag.cpp.o
 
 ape/apetag.i: ape/apetag.cpp.i
@@ -294,7 +294,7 @@ ape/apetag.i: ape/apetag.cpp.i
 
 # target to preprocess a source file
 ape/apetag.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apetag.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apetag.cpp.i
 .PHONY : ape/apetag.cpp.i
 
 ape/apetag.s: ape/apetag.cpp.s
@@ -303,7 +303,7 @@ ape/apetag.s: ape/apetag.cpp.s
 
 # target to generate assembly for a file
 ape/apetag.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apetag.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apetag.cpp.s
 .PHONY : ape/apetag.cpp.s
 
 asf/asfattribute.o: asf/asfattribute.cpp.o
@@ -312,7 +312,7 @@ asf/asfattribute.o: asf/asfattribute.cpp.o
 
 # target to build an object file
 asf/asfattribute.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.o
 .PHONY : asf/asfattribute.cpp.o
 
 asf/asfattribute.i: asf/asfattribute.cpp.i
@@ -321,7 +321,7 @@ asf/asfattribute.i: asf/asfattribute.cpp.i
 
 # target to preprocess a source file
 asf/asfattribute.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.i
 .PHONY : asf/asfattribute.cpp.i
 
 asf/asfattribute.s: asf/asfattribute.cpp.s
@@ -330,7 +330,7 @@ asf/asfattribute.s: asf/asfattribute.cpp.s
 
 # target to generate assembly for a file
 asf/asfattribute.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.s
 .PHONY : asf/asfattribute.cpp.s
 
 asf/asffile.o: asf/asffile.cpp.o
@@ -339,7 +339,7 @@ asf/asffile.o: asf/asffile.cpp.o
 
 # target to build an object file
 asf/asffile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o
 .PHONY : asf/asffile.cpp.o
 
 asf/asffile.i: asf/asffile.cpp.i
@@ -348,7 +348,7 @@ asf/asffile.i: asf/asffile.cpp.i
 
 # target to preprocess a source file
 asf/asffile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.i
 .PHONY : asf/asffile.cpp.i
 
 asf/asffile.s: asf/asffile.cpp.s
@@ -357,7 +357,7 @@ asf/asffile.s: asf/asffile.cpp.s
 
 # target to generate assembly for a file
 asf/asffile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.s
 .PHONY : asf/asffile.cpp.s
 
 asf/asfpicture.o: asf/asfpicture.cpp.o
@@ -366,7 +366,7 @@ asf/asfpicture.o: asf/asfpicture.cpp.o
 
 # target to build an object file
 asf/asfpicture.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.o
 .PHONY : asf/asfpicture.cpp.o
 
 asf/asfpicture.i: asf/asfpicture.cpp.i
@@ -375,7 +375,7 @@ asf/asfpicture.i: asf/asfpicture.cpp.i
 
 # target to preprocess a source file
 asf/asfpicture.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.i
 .PHONY : asf/asfpicture.cpp.i
 
 asf/asfpicture.s: asf/asfpicture.cpp.s
@@ -384,7 +384,7 @@ asf/asfpicture.s: asf/asfpicture.cpp.s
 
 # target to generate assembly for a file
 asf/asfpicture.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.s
 .PHONY : asf/asfpicture.cpp.s
 
 asf/asfproperties.o: asf/asfproperties.cpp.o
@@ -393,7 +393,7 @@ asf/asfproperties.o: asf/asfproperties.cpp.o
 
 # target to build an object file
 asf/asfproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfproperties.cpp.o
 .PHONY : asf/asfproperties.cpp.o
 
 asf/asfproperties.i: asf/asfproperties.cpp.i
@@ -402,7 +402,7 @@ asf/asfproperties.i: asf/asfproperties.cpp.i
 
 # target to preprocess a source file
 asf/asfproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfproperties.cpp.i
 .PHONY : asf/asfproperties.cpp.i
 
 asf/asfproperties.s: asf/asfproperties.cpp.s
@@ -411,7 +411,7 @@ asf/asfproperties.s: asf/asfproperties.cpp.s
 
 # target to generate assembly for a file
 asf/asfproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfproperties.cpp.s
 .PHONY : asf/asfproperties.cpp.s
 
 asf/asftag.o: asf/asftag.cpp.o
@@ -420,7 +420,7 @@ asf/asftag.o: asf/asftag.cpp.o
 
 # target to build an object file
 asf/asftag.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.o
 .PHONY : asf/asftag.cpp.o
 
 asf/asftag.i: asf/asftag.cpp.i
@@ -429,7 +429,7 @@ asf/asftag.i: asf/asftag.cpp.i
 
 # target to preprocess a source file
 asf/asftag.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.i
 .PHONY : asf/asftag.cpp.i
 
 asf/asftag.s: asf/asftag.cpp.s
@@ -438,7 +438,7 @@ asf/asftag.s: asf/asftag.cpp.s
 
 # target to generate assembly for a file
 asf/asftag.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.s
 .PHONY : asf/asftag.cpp.s
 
 audioproperties.o: audioproperties.cpp.o
@@ -447,7 +447,7 @@ audioproperties.o: audioproperties.cpp.o
 
 # target to build an object file
 audioproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.o
 .PHONY : audioproperties.cpp.o
 
 audioproperties.i: audioproperties.cpp.i
@@ -456,7 +456,7 @@ audioproperties.i: audioproperties.cpp.i
 
 # target to preprocess a source file
 audioproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.i
 .PHONY : audioproperties.cpp.i
 
 audioproperties.s: audioproperties.cpp.s
@@ -465,7 +465,7 @@ audioproperties.s: audioproperties.cpp.s
 
 # target to generate assembly for a file
 audioproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.s
 .PHONY : audioproperties.cpp.s
 
 fileref.o: fileref.cpp.o
@@ -474,7 +474,7 @@ fileref.o: fileref.cpp.o
 
 # target to build an object file
 fileref.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o
 .PHONY : fileref.cpp.o
 
 fileref.i: fileref.cpp.i
@@ -483,7 +483,7 @@ fileref.i: fileref.cpp.i
 
 # target to preprocess a source file
 fileref.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.i
 .PHONY : fileref.cpp.i
 
 fileref.s: fileref.cpp.s
@@ -492,7 +492,7 @@ fileref.s: fileref.cpp.s
 
 # target to generate assembly for a file
 fileref.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.s
 .PHONY : fileref.cpp.s
 
 flac/flacfile.o: flac/flacfile.cpp.o
@@ -501,7 +501,7 @@ flac/flacfile.o: flac/flacfile.cpp.o
 
 # target to build an object file
 flac/flacfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.o
 .PHONY : flac/flacfile.cpp.o
 
 flac/flacfile.i: flac/flacfile.cpp.i
@@ -510,7 +510,7 @@ flac/flacfile.i: flac/flacfile.cpp.i
 
 # target to preprocess a source file
 flac/flacfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.i
 .PHONY : flac/flacfile.cpp.i
 
 flac/flacfile.s: flac/flacfile.cpp.s
@@ -519,7 +519,7 @@ flac/flacfile.s: flac/flacfile.cpp.s
 
 # target to generate assembly for a file
 flac/flacfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.s
 .PHONY : flac/flacfile.cpp.s
 
 flac/flacmetadatablock.o: flac/flacmetadatablock.cpp.o
@@ -528,7 +528,7 @@ flac/flacmetadatablock.o: flac/flacmetadatablock.cpp.o
 
 # target to build an object file
 flac/flacmetadatablock.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacmetadatablock.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacmetadatablock.cpp.o
 .PHONY : flac/flacmetadatablock.cpp.o
 
 flac/flacmetadatablock.i: flac/flacmetadatablock.cpp.i
@@ -537,7 +537,7 @@ flac/flacmetadatablock.i: flac/flacmetadatablock.cpp.i
 
 # target to preprocess a source file
 flac/flacmetadatablock.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacmetadatablock.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacmetadatablock.cpp.i
 .PHONY : flac/flacmetadatablock.cpp.i
 
 flac/flacmetadatablock.s: flac/flacmetadatablock.cpp.s
@@ -546,7 +546,7 @@ flac/flacmetadatablock.s: flac/flacmetadatablock.cpp.s
 
 # target to generate assembly for a file
 flac/flacmetadatablock.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacmetadatablock.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacmetadatablock.cpp.s
 .PHONY : flac/flacmetadatablock.cpp.s
 
 flac/flacpicture.o: flac/flacpicture.cpp.o
@@ -555,7 +555,7 @@ flac/flacpicture.o: flac/flacpicture.cpp.o
 
 # target to build an object file
 flac/flacpicture.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacpicture.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacpicture.cpp.o
 .PHONY : flac/flacpicture.cpp.o
 
 flac/flacpicture.i: flac/flacpicture.cpp.i
@@ -564,7 +564,7 @@ flac/flacpicture.i: flac/flacpicture.cpp.i
 
 # target to preprocess a source file
 flac/flacpicture.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacpicture.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacpicture.cpp.i
 .PHONY : flac/flacpicture.cpp.i
 
 flac/flacpicture.s: flac/flacpicture.cpp.s
@@ -573,7 +573,7 @@ flac/flacpicture.s: flac/flacpicture.cpp.s
 
 # target to generate assembly for a file
 flac/flacpicture.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacpicture.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacpicture.cpp.s
 .PHONY : flac/flacpicture.cpp.s
 
 flac/flacproperties.o: flac/flacproperties.cpp.o
@@ -582,7 +582,7 @@ flac/flacproperties.o: flac/flacproperties.cpp.o
 
 # target to build an object file
 flac/flacproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacproperties.cpp.o
 .PHONY : flac/flacproperties.cpp.o
 
 flac/flacproperties.i: flac/flacproperties.cpp.i
@@ -591,7 +591,7 @@ flac/flacproperties.i: flac/flacproperties.cpp.i
 
 # target to preprocess a source file
 flac/flacproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacproperties.cpp.i
 .PHONY : flac/flacproperties.cpp.i
 
 flac/flacproperties.s: flac/flacproperties.cpp.s
@@ -600,7 +600,7 @@ flac/flacproperties.s: flac/flacproperties.cpp.s
 
 # target to generate assembly for a file
 flac/flacproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacproperties.cpp.s
 .PHONY : flac/flacproperties.cpp.s
 
 flac/flacunknownmetadatablock.o: flac/flacunknownmetadatablock.cpp.o
@@ -609,7 +609,7 @@ flac/flacunknownmetadatablock.o: flac/flacunknownmetadatablock.cpp.o
 
 # target to build an object file
 flac/flacunknownmetadatablock.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacunknownmetadatablock.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacunknownmetadatablock.cpp.o
 .PHONY : flac/flacunknownmetadatablock.cpp.o
 
 flac/flacunknownmetadatablock.i: flac/flacunknownmetadatablock.cpp.i
@@ -618,7 +618,7 @@ flac/flacunknownmetadatablock.i: flac/flacunknownmetadatablock.cpp.i
 
 # target to preprocess a source file
 flac/flacunknownmetadatablock.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacunknownmetadatablock.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacunknownmetadatablock.cpp.i
 .PHONY : flac/flacunknownmetadatablock.cpp.i
 
 flac/flacunknownmetadatablock.s: flac/flacunknownmetadatablock.cpp.s
@@ -627,7 +627,7 @@ flac/flacunknownmetadatablock.s: flac/flacunknownmetadatablock.cpp.s
 
 # target to generate assembly for a file
 flac/flacunknownmetadatablock.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacunknownmetadatablock.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacunknownmetadatablock.cpp.s
 .PHONY : flac/flacunknownmetadatablock.cpp.s
 
 it/itfile.o: it/itfile.cpp.o
@@ -636,7 +636,7 @@ it/itfile.o: it/itfile.cpp.o
 
 # target to build an object file
 it/itfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itfile.cpp.o
 .PHONY : it/itfile.cpp.o
 
 it/itfile.i: it/itfile.cpp.i
@@ -645,7 +645,7 @@ it/itfile.i: it/itfile.cpp.i
 
 # target to preprocess a source file
 it/itfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itfile.cpp.i
 .PHONY : it/itfile.cpp.i
 
 it/itfile.s: it/itfile.cpp.s
@@ -654,7 +654,7 @@ it/itfile.s: it/itfile.cpp.s
 
 # target to generate assembly for a file
 it/itfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itfile.cpp.s
 .PHONY : it/itfile.cpp.s
 
 it/itproperties.o: it/itproperties.cpp.o
@@ -663,7 +663,7 @@ it/itproperties.o: it/itproperties.cpp.o
 
 # target to build an object file
 it/itproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itproperties.cpp.o
 .PHONY : it/itproperties.cpp.o
 
 it/itproperties.i: it/itproperties.cpp.i
@@ -672,7 +672,7 @@ it/itproperties.i: it/itproperties.cpp.i
 
 # target to preprocess a source file
 it/itproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itproperties.cpp.i
 .PHONY : it/itproperties.cpp.i
 
 it/itproperties.s: it/itproperties.cpp.s
@@ -681,7 +681,7 @@ it/itproperties.s: it/itproperties.cpp.s
 
 # target to generate assembly for a file
 it/itproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itproperties.cpp.s
 .PHONY : it/itproperties.cpp.s
 
 mod/modfile.o: mod/modfile.cpp.o
@@ -690,7 +690,7 @@ mod/modfile.o: mod/modfile.cpp.o
 
 # target to build an object file
 mod/modfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfile.cpp.o
 .PHONY : mod/modfile.cpp.o
 
 mod/modfile.i: mod/modfile.cpp.i
@@ -699,7 +699,7 @@ mod/modfile.i: mod/modfile.cpp.i
 
 # target to preprocess a source file
 mod/modfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfile.cpp.i
 .PHONY : mod/modfile.cpp.i
 
 mod/modfile.s: mod/modfile.cpp.s
@@ -708,7 +708,7 @@ mod/modfile.s: mod/modfile.cpp.s
 
 # target to generate assembly for a file
 mod/modfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfile.cpp.s
 .PHONY : mod/modfile.cpp.s
 
 mod/modfilebase.o: mod/modfilebase.cpp.o
@@ -717,7 +717,7 @@ mod/modfilebase.o: mod/modfilebase.cpp.o
 
 # target to build an object file
 mod/modfilebase.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfilebase.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfilebase.cpp.o
 .PHONY : mod/modfilebase.cpp.o
 
 mod/modfilebase.i: mod/modfilebase.cpp.i
@@ -726,7 +726,7 @@ mod/modfilebase.i: mod/modfilebase.cpp.i
 
 # target to preprocess a source file
 mod/modfilebase.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfilebase.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfilebase.cpp.i
 .PHONY : mod/modfilebase.cpp.i
 
 mod/modfilebase.s: mod/modfilebase.cpp.s
@@ -735,7 +735,7 @@ mod/modfilebase.s: mod/modfilebase.cpp.s
 
 # target to generate assembly for a file
 mod/modfilebase.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfilebase.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfilebase.cpp.s
 .PHONY : mod/modfilebase.cpp.s
 
 mod/modproperties.o: mod/modproperties.cpp.o
@@ -744,7 +744,7 @@ mod/modproperties.o: mod/modproperties.cpp.o
 
 # target to build an object file
 mod/modproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modproperties.cpp.o
 .PHONY : mod/modproperties.cpp.o
 
 mod/modproperties.i: mod/modproperties.cpp.i
@@ -753,7 +753,7 @@ mod/modproperties.i: mod/modproperties.cpp.i
 
 # target to preprocess a source file
 mod/modproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modproperties.cpp.i
 .PHONY : mod/modproperties.cpp.i
 
 mod/modproperties.s: mod/modproperties.cpp.s
@@ -762,7 +762,7 @@ mod/modproperties.s: mod/modproperties.cpp.s
 
 # target to generate assembly for a file
 mod/modproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modproperties.cpp.s
 .PHONY : mod/modproperties.cpp.s
 
 mod/modtag.o: mod/modtag.cpp.o
@@ -771,7 +771,7 @@ mod/modtag.o: mod/modtag.cpp.o
 
 # target to build an object file
 mod/modtag.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modtag.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modtag.cpp.o
 .PHONY : mod/modtag.cpp.o
 
 mod/modtag.i: mod/modtag.cpp.i
@@ -780,7 +780,7 @@ mod/modtag.i: mod/modtag.cpp.i
 
 # target to preprocess a source file
 mod/modtag.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modtag.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modtag.cpp.i
 .PHONY : mod/modtag.cpp.i
 
 mod/modtag.s: mod/modtag.cpp.s
@@ -789,7 +789,7 @@ mod/modtag.s: mod/modtag.cpp.s
 
 # target to generate assembly for a file
 mod/modtag.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modtag.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modtag.cpp.s
 .PHONY : mod/modtag.cpp.s
 
 mp4/mp4atom.o: mp4/mp4atom.cpp.o
@@ -798,7 +798,7 @@ mp4/mp4atom.o: mp4/mp4atom.cpp.o
 
 # target to build an object file
 mp4/mp4atom.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4atom.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4atom.cpp.o
 .PHONY : mp4/mp4atom.cpp.o
 
 mp4/mp4atom.i: mp4/mp4atom.cpp.i
@@ -807,7 +807,7 @@ mp4/mp4atom.i: mp4/mp4atom.cpp.i
 
 # target to preprocess a source file
 mp4/mp4atom.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4atom.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4atom.cpp.i
 .PHONY : mp4/mp4atom.cpp.i
 
 mp4/mp4atom.s: mp4/mp4atom.cpp.s
@@ -816,7 +816,7 @@ mp4/mp4atom.s: mp4/mp4atom.cpp.s
 
 # target to generate assembly for a file
 mp4/mp4atom.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4atom.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4atom.cpp.s
 .PHONY : mp4/mp4atom.cpp.s
 
 mp4/mp4coverart.o: mp4/mp4coverart.cpp.o
@@ -825,7 +825,7 @@ mp4/mp4coverart.o: mp4/mp4coverart.cpp.o
 
 # target to build an object file
 mp4/mp4coverart.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4coverart.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4coverart.cpp.o
 .PHONY : mp4/mp4coverart.cpp.o
 
 mp4/mp4coverart.i: mp4/mp4coverart.cpp.i
@@ -834,7 +834,7 @@ mp4/mp4coverart.i: mp4/mp4coverart.cpp.i
 
 # target to preprocess a source file
 mp4/mp4coverart.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4coverart.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4coverart.cpp.i
 .PHONY : mp4/mp4coverart.cpp.i
 
 mp4/mp4coverart.s: mp4/mp4coverart.cpp.s
@@ -843,7 +843,7 @@ mp4/mp4coverart.s: mp4/mp4coverart.cpp.s
 
 # target to generate assembly for a file
 mp4/mp4coverart.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4coverart.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4coverart.cpp.s
 .PHONY : mp4/mp4coverart.cpp.s
 
 mp4/mp4file.o: mp4/mp4file.cpp.o
@@ -852,7 +852,7 @@ mp4/mp4file.o: mp4/mp4file.cpp.o
 
 # target to build an object file
 mp4/mp4file.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.o
 .PHONY : mp4/mp4file.cpp.o
 
 mp4/mp4file.i: mp4/mp4file.cpp.i
@@ -861,7 +861,7 @@ mp4/mp4file.i: mp4/mp4file.cpp.i
 
 # target to preprocess a source file
 mp4/mp4file.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.i
 .PHONY : mp4/mp4file.cpp.i
 
 mp4/mp4file.s: mp4/mp4file.cpp.s
@@ -870,7 +870,7 @@ mp4/mp4file.s: mp4/mp4file.cpp.s
 
 # target to generate assembly for a file
 mp4/mp4file.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.s
 .PHONY : mp4/mp4file.cpp.s
 
 mp4/mp4item.o: mp4/mp4item.cpp.o
@@ -879,7 +879,7 @@ mp4/mp4item.o: mp4/mp4item.cpp.o
 
 # target to build an object file
 mp4/mp4item.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4item.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4item.cpp.o
 .PHONY : mp4/mp4item.cpp.o
 
 mp4/mp4item.i: mp4/mp4item.cpp.i
@@ -888,7 +888,7 @@ mp4/mp4item.i: mp4/mp4item.cpp.i
 
 # target to preprocess a source file
 mp4/mp4item.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4item.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4item.cpp.i
 .PHONY : mp4/mp4item.cpp.i
 
 mp4/mp4item.s: mp4/mp4item.cpp.s
@@ -897,7 +897,7 @@ mp4/mp4item.s: mp4/mp4item.cpp.s
 
 # target to generate assembly for a file
 mp4/mp4item.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4item.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4item.cpp.s
 .PHONY : mp4/mp4item.cpp.s
 
 mp4/mp4properties.o: mp4/mp4properties.cpp.o
@@ -906,7 +906,7 @@ mp4/mp4properties.o: mp4/mp4properties.cpp.o
 
 # target to build an object file
 mp4/mp4properties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4properties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4properties.cpp.o
 .PHONY : mp4/mp4properties.cpp.o
 
 mp4/mp4properties.i: mp4/mp4properties.cpp.i
@@ -915,7 +915,7 @@ mp4/mp4properties.i: mp4/mp4properties.cpp.i
 
 # target to preprocess a source file
 mp4/mp4properties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4properties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4properties.cpp.i
 .PHONY : mp4/mp4properties.cpp.i
 
 mp4/mp4properties.s: mp4/mp4properties.cpp.s
@@ -924,7 +924,7 @@ mp4/mp4properties.s: mp4/mp4properties.cpp.s
 
 # target to generate assembly for a file
 mp4/mp4properties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4properties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4properties.cpp.s
 .PHONY : mp4/mp4properties.cpp.s
 
 mp4/mp4tag.o: mp4/mp4tag.cpp.o
@@ -933,7 +933,7 @@ mp4/mp4tag.o: mp4/mp4tag.cpp.o
 
 # target to build an object file
 mp4/mp4tag.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4tag.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4tag.cpp.o
 .PHONY : mp4/mp4tag.cpp.o
 
 mp4/mp4tag.i: mp4/mp4tag.cpp.i
@@ -942,7 +942,7 @@ mp4/mp4tag.i: mp4/mp4tag.cpp.i
 
 # target to preprocess a source file
 mp4/mp4tag.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4tag.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4tag.cpp.i
 .PHONY : mp4/mp4tag.cpp.i
 
 mp4/mp4tag.s: mp4/mp4tag.cpp.s
@@ -951,7 +951,7 @@ mp4/mp4tag.s: mp4/mp4tag.cpp.s
 
 # target to generate assembly for a file
 mp4/mp4tag.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4tag.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4tag.cpp.s
 .PHONY : mp4/mp4tag.cpp.s
 
 mpc/mpcfile.o: mpc/mpcfile.cpp.o
@@ -960,7 +960,7 @@ mpc/mpcfile.o: mpc/mpcfile.cpp.o
 
 # target to build an object file
 mpc/mpcfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.o
 .PHONY : mpc/mpcfile.cpp.o
 
 mpc/mpcfile.i: mpc/mpcfile.cpp.i
@@ -969,7 +969,7 @@ mpc/mpcfile.i: mpc/mpcfile.cpp.i
 
 # target to preprocess a source file
 mpc/mpcfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.i
 .PHONY : mpc/mpcfile.cpp.i
 
 mpc/mpcfile.s: mpc/mpcfile.cpp.s
@@ -978,7 +978,7 @@ mpc/mpcfile.s: mpc/mpcfile.cpp.s
 
 # target to generate assembly for a file
 mpc/mpcfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.s
 .PHONY : mpc/mpcfile.cpp.s
 
 mpc/mpcproperties.o: mpc/mpcproperties.cpp.o
@@ -987,7 +987,7 @@ mpc/mpcproperties.o: mpc/mpcproperties.cpp.o
 
 # target to build an object file
 mpc/mpcproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcproperties.cpp.o
 .PHONY : mpc/mpcproperties.cpp.o
 
 mpc/mpcproperties.i: mpc/mpcproperties.cpp.i
@@ -996,7 +996,7 @@ mpc/mpcproperties.i: mpc/mpcproperties.cpp.i
 
 # target to preprocess a source file
 mpc/mpcproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcproperties.cpp.i
 .PHONY : mpc/mpcproperties.cpp.i
 
 mpc/mpcproperties.s: mpc/mpcproperties.cpp.s
@@ -1005,7 +1005,7 @@ mpc/mpcproperties.s: mpc/mpcproperties.cpp.s
 
 # target to generate assembly for a file
 mpc/mpcproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcproperties.cpp.s
 .PHONY : mpc/mpcproperties.cpp.s
 
 mpeg/id3v1/id3v1genres.o: mpeg/id3v1/id3v1genres.cpp.o
@@ -1014,7 +1014,7 @@ mpeg/id3v1/id3v1genres.o: mpeg/id3v1/id3v1genres.cpp.o
 
 # target to build an object file
 mpeg/id3v1/id3v1genres.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1genres.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1genres.cpp.o
 .PHONY : mpeg/id3v1/id3v1genres.cpp.o
 
 mpeg/id3v1/id3v1genres.i: mpeg/id3v1/id3v1genres.cpp.i
@@ -1023,7 +1023,7 @@ mpeg/id3v1/id3v1genres.i: mpeg/id3v1/id3v1genres.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v1/id3v1genres.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1genres.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1genres.cpp.i
 .PHONY : mpeg/id3v1/id3v1genres.cpp.i
 
 mpeg/id3v1/id3v1genres.s: mpeg/id3v1/id3v1genres.cpp.s
@@ -1032,7 +1032,7 @@ mpeg/id3v1/id3v1genres.s: mpeg/id3v1/id3v1genres.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v1/id3v1genres.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1genres.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1genres.cpp.s
 .PHONY : mpeg/id3v1/id3v1genres.cpp.s
 
 mpeg/id3v1/id3v1tag.o: mpeg/id3v1/id3v1tag.cpp.o
@@ -1041,7 +1041,7 @@ mpeg/id3v1/id3v1tag.o: mpeg/id3v1/id3v1tag.cpp.o
 
 # target to build an object file
 mpeg/id3v1/id3v1tag.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1tag.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1tag.cpp.o
 .PHONY : mpeg/id3v1/id3v1tag.cpp.o
 
 mpeg/id3v1/id3v1tag.i: mpeg/id3v1/id3v1tag.cpp.i
@@ -1050,7 +1050,7 @@ mpeg/id3v1/id3v1tag.i: mpeg/id3v1/id3v1tag.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v1/id3v1tag.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1tag.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1tag.cpp.i
 .PHONY : mpeg/id3v1/id3v1tag.cpp.i
 
 mpeg/id3v1/id3v1tag.s: mpeg/id3v1/id3v1tag.cpp.s
@@ -1059,7 +1059,7 @@ mpeg/id3v1/id3v1tag.s: mpeg/id3v1/id3v1tag.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v1/id3v1tag.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1tag.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1tag.cpp.s
 .PHONY : mpeg/id3v1/id3v1tag.cpp.s
 
 mpeg/id3v2/frames/attachedpictureframe.o: mpeg/id3v2/frames/attachedpictureframe.cpp.o
@@ -1068,7 +1068,7 @@ mpeg/id3v2/frames/attachedpictureframe.o: mpeg/id3v2/frames/attachedpictureframe
 
 # target to build an object file
 mpeg/id3v2/frames/attachedpictureframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.o
 .PHONY : mpeg/id3v2/frames/attachedpictureframe.cpp.o
 
 mpeg/id3v2/frames/attachedpictureframe.i: mpeg/id3v2/frames/attachedpictureframe.cpp.i
@@ -1077,7 +1077,7 @@ mpeg/id3v2/frames/attachedpictureframe.i: mpeg/id3v2/frames/attachedpictureframe
 
 # target to preprocess a source file
 mpeg/id3v2/frames/attachedpictureframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.i
 .PHONY : mpeg/id3v2/frames/attachedpictureframe.cpp.i
 
 mpeg/id3v2/frames/attachedpictureframe.s: mpeg/id3v2/frames/attachedpictureframe.cpp.s
@@ -1086,7 +1086,7 @@ mpeg/id3v2/frames/attachedpictureframe.s: mpeg/id3v2/frames/attachedpictureframe
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/attachedpictureframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.s
 .PHONY : mpeg/id3v2/frames/attachedpictureframe.cpp.s
 
 mpeg/id3v2/frames/chapterframe.o: mpeg/id3v2/frames/chapterframe.cpp.o
@@ -1095,7 +1095,7 @@ mpeg/id3v2/frames/chapterframe.o: mpeg/id3v2/frames/chapterframe.cpp.o
 
 # target to build an object file
 mpeg/id3v2/frames/chapterframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.o
 .PHONY : mpeg/id3v2/frames/chapterframe.cpp.o
 
 mpeg/id3v2/frames/chapterframe.i: mpeg/id3v2/frames/chapterframe.cpp.i
@@ -1104,7 +1104,7 @@ mpeg/id3v2/frames/chapterframe.i: mpeg/id3v2/frames/chapterframe.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/frames/chapterframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.i
 .PHONY : mpeg/id3v2/frames/chapterframe.cpp.i
 
 mpeg/id3v2/frames/chapterframe.s: mpeg/id3v2/frames/chapterframe.cpp.s
@@ -1113,7 +1113,7 @@ mpeg/id3v2/frames/chapterframe.s: mpeg/id3v2/frames/chapterframe.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/chapterframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.s
 .PHONY : mpeg/id3v2/frames/chapterframe.cpp.s
 
 mpeg/id3v2/frames/commentsframe.o: mpeg/id3v2/frames/commentsframe.cpp.o
@@ -1122,7 +1122,7 @@ mpeg/id3v2/frames/commentsframe.o: mpeg/id3v2/frames/commentsframe.cpp.o
 
 # target to build an object file
 mpeg/id3v2/frames/commentsframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.o
 .PHONY : mpeg/id3v2/frames/commentsframe.cpp.o
 
 mpeg/id3v2/frames/commentsframe.i: mpeg/id3v2/frames/commentsframe.cpp.i
@@ -1131,7 +1131,7 @@ mpeg/id3v2/frames/commentsframe.i: mpeg/id3v2/frames/commentsframe.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/frames/commentsframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.i
 .PHONY : mpeg/id3v2/frames/commentsframe.cpp.i
 
 mpeg/id3v2/frames/commentsframe.s: mpeg/id3v2/frames/commentsframe.cpp.s
@@ -1140,7 +1140,7 @@ mpeg/id3v2/frames/commentsframe.s: mpeg/id3v2/frames/commentsframe.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/commentsframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.s
 .PHONY : mpeg/id3v2/frames/commentsframe.cpp.s
 
 mpeg/id3v2/frames/eventtimingcodesframe.o: mpeg/id3v2/frames/eventtimingcodesframe.cpp.o
@@ -1149,7 +1149,7 @@ mpeg/id3v2/frames/eventtimingcodesframe.o: mpeg/id3v2/frames/eventtimingcodesfra
 
 # target to build an object file
 mpeg/id3v2/frames/eventtimingcodesframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.o
 .PHONY : mpeg/id3v2/frames/eventtimingcodesframe.cpp.o
 
 mpeg/id3v2/frames/eventtimingcodesframe.i: mpeg/id3v2/frames/eventtimingcodesframe.cpp.i
@@ -1158,7 +1158,7 @@ mpeg/id3v2/frames/eventtimingcodesframe.i: mpeg/id3v2/frames/eventtimingcodesfra
 
 # target to preprocess a source file
 mpeg/id3v2/frames/eventtimingcodesframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.i
 .PHONY : mpeg/id3v2/frames/eventtimingcodesframe.cpp.i
 
 mpeg/id3v2/frames/eventtimingcodesframe.s: mpeg/id3v2/frames/eventtimingcodesframe.cpp.s
@@ -1167,7 +1167,7 @@ mpeg/id3v2/frames/eventtimingcodesframe.s: mpeg/id3v2/frames/eventtimingcodesfra
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/eventtimingcodesframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.s
 .PHONY : mpeg/id3v2/frames/eventtimingcodesframe.cpp.s
 
 mpeg/id3v2/frames/generalencapsulatedobjectframe.o: mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o
@@ -1176,7 +1176,7 @@ mpeg/id3v2/frames/generalencapsulatedobjectframe.o: mpeg/id3v2/frames/generalenc
 
 # target to build an object file
 mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o
 .PHONY : mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o
 
 mpeg/id3v2/frames/generalencapsulatedobjectframe.i: mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.i
@@ -1185,7 +1185,7 @@ mpeg/id3v2/frames/generalencapsulatedobjectframe.i: mpeg/id3v2/frames/generalenc
 
 # target to preprocess a source file
 mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.i
 .PHONY : mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.i
 
 mpeg/id3v2/frames/generalencapsulatedobjectframe.s: mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.s
@@ -1194,7 +1194,7 @@ mpeg/id3v2/frames/generalencapsulatedobjectframe.s: mpeg/id3v2/frames/generalenc
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.s
 .PHONY : mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.s
 
 mpeg/id3v2/frames/ownershipframe.o: mpeg/id3v2/frames/ownershipframe.cpp.o
@@ -1203,7 +1203,7 @@ mpeg/id3v2/frames/ownershipframe.o: mpeg/id3v2/frames/ownershipframe.cpp.o
 
 # target to build an object file
 mpeg/id3v2/frames/ownershipframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/ownershipframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/ownershipframe.cpp.o
 .PHONY : mpeg/id3v2/frames/ownershipframe.cpp.o
 
 mpeg/id3v2/frames/ownershipframe.i: mpeg/id3v2/frames/ownershipframe.cpp.i
@@ -1212,7 +1212,7 @@ mpeg/id3v2/frames/ownershipframe.i: mpeg/id3v2/frames/ownershipframe.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/frames/ownershipframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/ownershipframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/ownershipframe.cpp.i
 .PHONY : mpeg/id3v2/frames/ownershipframe.cpp.i
 
 mpeg/id3v2/frames/ownershipframe.s: mpeg/id3v2/frames/ownershipframe.cpp.s
@@ -1221,7 +1221,7 @@ mpeg/id3v2/frames/ownershipframe.s: mpeg/id3v2/frames/ownershipframe.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/ownershipframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/ownershipframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/ownershipframe.cpp.s
 .PHONY : mpeg/id3v2/frames/ownershipframe.cpp.s
 
 mpeg/id3v2/frames/podcastframe.o: mpeg/id3v2/frames/podcastframe.cpp.o
@@ -1230,7 +1230,7 @@ mpeg/id3v2/frames/podcastframe.o: mpeg/id3v2/frames/podcastframe.cpp.o
 
 # target to build an object file
 mpeg/id3v2/frames/podcastframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/podcastframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/podcastframe.cpp.o
 .PHONY : mpeg/id3v2/frames/podcastframe.cpp.o
 
 mpeg/id3v2/frames/podcastframe.i: mpeg/id3v2/frames/podcastframe.cpp.i
@@ -1239,7 +1239,7 @@ mpeg/id3v2/frames/podcastframe.i: mpeg/id3v2/frames/podcastframe.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/frames/podcastframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/podcastframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/podcastframe.cpp.i
 .PHONY : mpeg/id3v2/frames/podcastframe.cpp.i
 
 mpeg/id3v2/frames/podcastframe.s: mpeg/id3v2/frames/podcastframe.cpp.s
@@ -1248,7 +1248,7 @@ mpeg/id3v2/frames/podcastframe.s: mpeg/id3v2/frames/podcastframe.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/podcastframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/podcastframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/podcastframe.cpp.s
 .PHONY : mpeg/id3v2/frames/podcastframe.cpp.s
 
 mpeg/id3v2/frames/popularimeterframe.o: mpeg/id3v2/frames/popularimeterframe.cpp.o
@@ -1257,7 +1257,7 @@ mpeg/id3v2/frames/popularimeterframe.o: mpeg/id3v2/frames/popularimeterframe.cpp
 
 # target to build an object file
 mpeg/id3v2/frames/popularimeterframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/popularimeterframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/popularimeterframe.cpp.o
 .PHONY : mpeg/id3v2/frames/popularimeterframe.cpp.o
 
 mpeg/id3v2/frames/popularimeterframe.i: mpeg/id3v2/frames/popularimeterframe.cpp.i
@@ -1266,7 +1266,7 @@ mpeg/id3v2/frames/popularimeterframe.i: mpeg/id3v2/frames/popularimeterframe.cpp
 
 # target to preprocess a source file
 mpeg/id3v2/frames/popularimeterframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/popularimeterframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/popularimeterframe.cpp.i
 .PHONY : mpeg/id3v2/frames/popularimeterframe.cpp.i
 
 mpeg/id3v2/frames/popularimeterframe.s: mpeg/id3v2/frames/popularimeterframe.cpp.s
@@ -1275,7 +1275,7 @@ mpeg/id3v2/frames/popularimeterframe.s: mpeg/id3v2/frames/popularimeterframe.cpp
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/popularimeterframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/popularimeterframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/popularimeterframe.cpp.s
 .PHONY : mpeg/id3v2/frames/popularimeterframe.cpp.s
 
 mpeg/id3v2/frames/privateframe.o: mpeg/id3v2/frames/privateframe.cpp.o
@@ -1284,7 +1284,7 @@ mpeg/id3v2/frames/privateframe.o: mpeg/id3v2/frames/privateframe.cpp.o
 
 # target to build an object file
 mpeg/id3v2/frames/privateframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/privateframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/privateframe.cpp.o
 .PHONY : mpeg/id3v2/frames/privateframe.cpp.o
 
 mpeg/id3v2/frames/privateframe.i: mpeg/id3v2/frames/privateframe.cpp.i
@@ -1293,7 +1293,7 @@ mpeg/id3v2/frames/privateframe.i: mpeg/id3v2/frames/privateframe.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/frames/privateframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/privateframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/privateframe.cpp.i
 .PHONY : mpeg/id3v2/frames/privateframe.cpp.i
 
 mpeg/id3v2/frames/privateframe.s: mpeg/id3v2/frames/privateframe.cpp.s
@@ -1302,7 +1302,7 @@ mpeg/id3v2/frames/privateframe.s: mpeg/id3v2/frames/privateframe.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/privateframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/privateframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/privateframe.cpp.s
 .PHONY : mpeg/id3v2/frames/privateframe.cpp.s
 
 mpeg/id3v2/frames/relativevolumeframe.o: mpeg/id3v2/frames/relativevolumeframe.cpp.o
@@ -1311,7 +1311,7 @@ mpeg/id3v2/frames/relativevolumeframe.o: mpeg/id3v2/frames/relativevolumeframe.c
 
 # target to build an object file
 mpeg/id3v2/frames/relativevolumeframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/relativevolumeframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/relativevolumeframe.cpp.o
 .PHONY : mpeg/id3v2/frames/relativevolumeframe.cpp.o
 
 mpeg/id3v2/frames/relativevolumeframe.i: mpeg/id3v2/frames/relativevolumeframe.cpp.i
@@ -1320,7 +1320,7 @@ mpeg/id3v2/frames/relativevolumeframe.i: mpeg/id3v2/frames/relativevolumeframe.c
 
 # target to preprocess a source file
 mpeg/id3v2/frames/relativevolumeframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/relativevolumeframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/relativevolumeframe.cpp.i
 .PHONY : mpeg/id3v2/frames/relativevolumeframe.cpp.i
 
 mpeg/id3v2/frames/relativevolumeframe.s: mpeg/id3v2/frames/relativevolumeframe.cpp.s
@@ -1329,7 +1329,7 @@ mpeg/id3v2/frames/relativevolumeframe.s: mpeg/id3v2/frames/relativevolumeframe.c
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/relativevolumeframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/relativevolumeframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/relativevolumeframe.cpp.s
 .PHONY : mpeg/id3v2/frames/relativevolumeframe.cpp.s
 
 mpeg/id3v2/frames/synchronizedlyricsframe.o: mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o
@@ -1338,7 +1338,7 @@ mpeg/id3v2/frames/synchronizedlyricsframe.o: mpeg/id3v2/frames/synchronizedlyric
 
 # target to build an object file
 mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o
 .PHONY : mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o
 
 mpeg/id3v2/frames/synchronizedlyricsframe.i: mpeg/id3v2/frames/synchronizedlyricsframe.cpp.i
@@ -1347,7 +1347,7 @@ mpeg/id3v2/frames/synchronizedlyricsframe.i: mpeg/id3v2/frames/synchronizedlyric
 
 # target to preprocess a source file
 mpeg/id3v2/frames/synchronizedlyricsframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.i
 .PHONY : mpeg/id3v2/frames/synchronizedlyricsframe.cpp.i
 
 mpeg/id3v2/frames/synchronizedlyricsframe.s: mpeg/id3v2/frames/synchronizedlyricsframe.cpp.s
@@ -1356,7 +1356,7 @@ mpeg/id3v2/frames/synchronizedlyricsframe.s: mpeg/id3v2/frames/synchronizedlyric
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/synchronizedlyricsframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.s
 .PHONY : mpeg/id3v2/frames/synchronizedlyricsframe.cpp.s
 
 mpeg/id3v2/frames/tableofcontentsframe.o: mpeg/id3v2/frames/tableofcontentsframe.cpp.o
@@ -1365,7 +1365,7 @@ mpeg/id3v2/frames/tableofcontentsframe.o: mpeg/id3v2/frames/tableofcontentsframe
 
 # target to build an object file
 mpeg/id3v2/frames/tableofcontentsframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.o
 .PHONY : mpeg/id3v2/frames/tableofcontentsframe.cpp.o
 
 mpeg/id3v2/frames/tableofcontentsframe.i: mpeg/id3v2/frames/tableofcontentsframe.cpp.i
@@ -1374,7 +1374,7 @@ mpeg/id3v2/frames/tableofcontentsframe.i: mpeg/id3v2/frames/tableofcontentsframe
 
 # target to preprocess a source file
 mpeg/id3v2/frames/tableofcontentsframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.i
 .PHONY : mpeg/id3v2/frames/tableofcontentsframe.cpp.i
 
 mpeg/id3v2/frames/tableofcontentsframe.s: mpeg/id3v2/frames/tableofcontentsframe.cpp.s
@@ -1383,7 +1383,7 @@ mpeg/id3v2/frames/tableofcontentsframe.s: mpeg/id3v2/frames/tableofcontentsframe
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/tableofcontentsframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.s
 .PHONY : mpeg/id3v2/frames/tableofcontentsframe.cpp.s
 
 mpeg/id3v2/frames/textidentificationframe.o: mpeg/id3v2/frames/textidentificationframe.cpp.o
@@ -1392,7 +1392,7 @@ mpeg/id3v2/frames/textidentificationframe.o: mpeg/id3v2/frames/textidentificatio
 
 # target to build an object file
 mpeg/id3v2/frames/textidentificationframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.o
 .PHONY : mpeg/id3v2/frames/textidentificationframe.cpp.o
 
 mpeg/id3v2/frames/textidentificationframe.i: mpeg/id3v2/frames/textidentificationframe.cpp.i
@@ -1401,7 +1401,7 @@ mpeg/id3v2/frames/textidentificationframe.i: mpeg/id3v2/frames/textidentificatio
 
 # target to preprocess a source file
 mpeg/id3v2/frames/textidentificationframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.i
 .PHONY : mpeg/id3v2/frames/textidentificationframe.cpp.i
 
 mpeg/id3v2/frames/textidentificationframe.s: mpeg/id3v2/frames/textidentificationframe.cpp.s
@@ -1410,7 +1410,7 @@ mpeg/id3v2/frames/textidentificationframe.s: mpeg/id3v2/frames/textidentificatio
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/textidentificationframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.s
 .PHONY : mpeg/id3v2/frames/textidentificationframe.cpp.s
 
 mpeg/id3v2/frames/uniquefileidentifierframe.o: mpeg/id3v2/frames/uniquefileidentifierframe.cpp.o
@@ -1419,7 +1419,7 @@ mpeg/id3v2/frames/uniquefileidentifierframe.o: mpeg/id3v2/frames/uniquefileident
 
 # target to build an object file
 mpeg/id3v2/frames/uniquefileidentifierframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/uniquefileidentifierframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/uniquefileidentifierframe.cpp.o
 .PHONY : mpeg/id3v2/frames/uniquefileidentifierframe.cpp.o
 
 mpeg/id3v2/frames/uniquefileidentifierframe.i: mpeg/id3v2/frames/uniquefileidentifierframe.cpp.i
@@ -1428,7 +1428,7 @@ mpeg/id3v2/frames/uniquefileidentifierframe.i: mpeg/id3v2/frames/uniquefileident
 
 # target to preprocess a source file
 mpeg/id3v2/frames/uniquefileidentifierframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/uniquefileidentifierframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/uniquefileidentifierframe.cpp.i
 .PHONY : mpeg/id3v2/frames/uniquefileidentifierframe.cpp.i
 
 mpeg/id3v2/frames/uniquefileidentifierframe.s: mpeg/id3v2/frames/uniquefileidentifierframe.cpp.s
@@ -1437,7 +1437,7 @@ mpeg/id3v2/frames/uniquefileidentifierframe.s: mpeg/id3v2/frames/uniquefileident
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/uniquefileidentifierframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/uniquefileidentifierframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/uniquefileidentifierframe.cpp.s
 .PHONY : mpeg/id3v2/frames/uniquefileidentifierframe.cpp.s
 
 mpeg/id3v2/frames/unknownframe.o: mpeg/id3v2/frames/unknownframe.cpp.o
@@ -1446,7 +1446,7 @@ mpeg/id3v2/frames/unknownframe.o: mpeg/id3v2/frames/unknownframe.cpp.o
 
 # target to build an object file
 mpeg/id3v2/frames/unknownframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unknownframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unknownframe.cpp.o
 .PHONY : mpeg/id3v2/frames/unknownframe.cpp.o
 
 mpeg/id3v2/frames/unknownframe.i: mpeg/id3v2/frames/unknownframe.cpp.i
@@ -1455,7 +1455,7 @@ mpeg/id3v2/frames/unknownframe.i: mpeg/id3v2/frames/unknownframe.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/frames/unknownframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unknownframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unknownframe.cpp.i
 .PHONY : mpeg/id3v2/frames/unknownframe.cpp.i
 
 mpeg/id3v2/frames/unknownframe.s: mpeg/id3v2/frames/unknownframe.cpp.s
@@ -1464,7 +1464,7 @@ mpeg/id3v2/frames/unknownframe.s: mpeg/id3v2/frames/unknownframe.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/unknownframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unknownframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unknownframe.cpp.s
 .PHONY : mpeg/id3v2/frames/unknownframe.cpp.s
 
 mpeg/id3v2/frames/unsynchronizedlyricsframe.o: mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o
@@ -1473,7 +1473,7 @@ mpeg/id3v2/frames/unsynchronizedlyricsframe.o: mpeg/id3v2/frames/unsynchronizedl
 
 # target to build an object file
 mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o
 .PHONY : mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o
 
 mpeg/id3v2/frames/unsynchronizedlyricsframe.i: mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.i
@@ -1482,7 +1482,7 @@ mpeg/id3v2/frames/unsynchronizedlyricsframe.i: mpeg/id3v2/frames/unsynchronizedl
 
 # target to preprocess a source file
 mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.i
 .PHONY : mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.i
 
 mpeg/id3v2/frames/unsynchronizedlyricsframe.s: mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.s
@@ -1491,7 +1491,7 @@ mpeg/id3v2/frames/unsynchronizedlyricsframe.s: mpeg/id3v2/frames/unsynchronizedl
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.s
 .PHONY : mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.s
 
 mpeg/id3v2/frames/urllinkframe.o: mpeg/id3v2/frames/urllinkframe.cpp.o
@@ -1500,7 +1500,7 @@ mpeg/id3v2/frames/urllinkframe.o: mpeg/id3v2/frames/urllinkframe.cpp.o
 
 # target to build an object file
 mpeg/id3v2/frames/urllinkframe.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/urllinkframe.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/urllinkframe.cpp.o
 .PHONY : mpeg/id3v2/frames/urllinkframe.cpp.o
 
 mpeg/id3v2/frames/urllinkframe.i: mpeg/id3v2/frames/urllinkframe.cpp.i
@@ -1509,7 +1509,7 @@ mpeg/id3v2/frames/urllinkframe.i: mpeg/id3v2/frames/urllinkframe.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/frames/urllinkframe.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/urllinkframe.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/urllinkframe.cpp.i
 .PHONY : mpeg/id3v2/frames/urllinkframe.cpp.i
 
 mpeg/id3v2/frames/urllinkframe.s: mpeg/id3v2/frames/urllinkframe.cpp.s
@@ -1518,7 +1518,7 @@ mpeg/id3v2/frames/urllinkframe.s: mpeg/id3v2/frames/urllinkframe.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/frames/urllinkframe.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/urllinkframe.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/urllinkframe.cpp.s
 .PHONY : mpeg/id3v2/frames/urllinkframe.cpp.s
 
 mpeg/id3v2/id3v2extendedheader.o: mpeg/id3v2/id3v2extendedheader.cpp.o
@@ -1527,7 +1527,7 @@ mpeg/id3v2/id3v2extendedheader.o: mpeg/id3v2/id3v2extendedheader.cpp.o
 
 # target to build an object file
 mpeg/id3v2/id3v2extendedheader.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2extendedheader.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2extendedheader.cpp.o
 .PHONY : mpeg/id3v2/id3v2extendedheader.cpp.o
 
 mpeg/id3v2/id3v2extendedheader.i: mpeg/id3v2/id3v2extendedheader.cpp.i
@@ -1536,7 +1536,7 @@ mpeg/id3v2/id3v2extendedheader.i: mpeg/id3v2/id3v2extendedheader.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/id3v2extendedheader.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2extendedheader.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2extendedheader.cpp.i
 .PHONY : mpeg/id3v2/id3v2extendedheader.cpp.i
 
 mpeg/id3v2/id3v2extendedheader.s: mpeg/id3v2/id3v2extendedheader.cpp.s
@@ -1545,7 +1545,7 @@ mpeg/id3v2/id3v2extendedheader.s: mpeg/id3v2/id3v2extendedheader.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/id3v2extendedheader.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2extendedheader.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2extendedheader.cpp.s
 .PHONY : mpeg/id3v2/id3v2extendedheader.cpp.s
 
 mpeg/id3v2/id3v2footer.o: mpeg/id3v2/id3v2footer.cpp.o
@@ -1554,7 +1554,7 @@ mpeg/id3v2/id3v2footer.o: mpeg/id3v2/id3v2footer.cpp.o
 
 # target to build an object file
 mpeg/id3v2/id3v2footer.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.o
 .PHONY : mpeg/id3v2/id3v2footer.cpp.o
 
 mpeg/id3v2/id3v2footer.i: mpeg/id3v2/id3v2footer.cpp.i
@@ -1563,7 +1563,7 @@ mpeg/id3v2/id3v2footer.i: mpeg/id3v2/id3v2footer.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/id3v2footer.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.i
 .PHONY : mpeg/id3v2/id3v2footer.cpp.i
 
 mpeg/id3v2/id3v2footer.s: mpeg/id3v2/id3v2footer.cpp.s
@@ -1572,7 +1572,7 @@ mpeg/id3v2/id3v2footer.s: mpeg/id3v2/id3v2footer.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/id3v2footer.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.s
 .PHONY : mpeg/id3v2/id3v2footer.cpp.s
 
 mpeg/id3v2/id3v2frame.o: mpeg/id3v2/id3v2frame.cpp.o
@@ -1581,7 +1581,7 @@ mpeg/id3v2/id3v2frame.o: mpeg/id3v2/id3v2frame.cpp.o
 
 # target to build an object file
 mpeg/id3v2/id3v2frame.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.o
 .PHONY : mpeg/id3v2/id3v2frame.cpp.o
 
 mpeg/id3v2/id3v2frame.i: mpeg/id3v2/id3v2frame.cpp.i
@@ -1590,7 +1590,7 @@ mpeg/id3v2/id3v2frame.i: mpeg/id3v2/id3v2frame.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/id3v2frame.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.i
 .PHONY : mpeg/id3v2/id3v2frame.cpp.i
 
 mpeg/id3v2/id3v2frame.s: mpeg/id3v2/id3v2frame.cpp.s
@@ -1599,7 +1599,7 @@ mpeg/id3v2/id3v2frame.s: mpeg/id3v2/id3v2frame.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/id3v2frame.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.s
 .PHONY : mpeg/id3v2/id3v2frame.cpp.s
 
 mpeg/id3v2/id3v2framefactory.o: mpeg/id3v2/id3v2framefactory.cpp.o
@@ -1608,7 +1608,7 @@ mpeg/id3v2/id3v2framefactory.o: mpeg/id3v2/id3v2framefactory.cpp.o
 
 # target to build an object file
 mpeg/id3v2/id3v2framefactory.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.o
 .PHONY : mpeg/id3v2/id3v2framefactory.cpp.o
 
 mpeg/id3v2/id3v2framefactory.i: mpeg/id3v2/id3v2framefactory.cpp.i
@@ -1617,7 +1617,7 @@ mpeg/id3v2/id3v2framefactory.i: mpeg/id3v2/id3v2framefactory.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/id3v2framefactory.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.i
 .PHONY : mpeg/id3v2/id3v2framefactory.cpp.i
 
 mpeg/id3v2/id3v2framefactory.s: mpeg/id3v2/id3v2framefactory.cpp.s
@@ -1626,7 +1626,7 @@ mpeg/id3v2/id3v2framefactory.s: mpeg/id3v2/id3v2framefactory.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/id3v2framefactory.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.s
 .PHONY : mpeg/id3v2/id3v2framefactory.cpp.s
 
 mpeg/id3v2/id3v2header.o: mpeg/id3v2/id3v2header.cpp.o
@@ -1635,7 +1635,7 @@ mpeg/id3v2/id3v2header.o: mpeg/id3v2/id3v2header.cpp.o
 
 # target to build an object file
 mpeg/id3v2/id3v2header.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.o
 .PHONY : mpeg/id3v2/id3v2header.cpp.o
 
 mpeg/id3v2/id3v2header.i: mpeg/id3v2/id3v2header.cpp.i
@@ -1644,7 +1644,7 @@ mpeg/id3v2/id3v2header.i: mpeg/id3v2/id3v2header.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/id3v2header.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.i
 .PHONY : mpeg/id3v2/id3v2header.cpp.i
 
 mpeg/id3v2/id3v2header.s: mpeg/id3v2/id3v2header.cpp.s
@@ -1653,7 +1653,7 @@ mpeg/id3v2/id3v2header.s: mpeg/id3v2/id3v2header.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/id3v2header.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.s
 .PHONY : mpeg/id3v2/id3v2header.cpp.s
 
 mpeg/id3v2/id3v2synchdata.o: mpeg/id3v2/id3v2synchdata.cpp.o
@@ -1662,7 +1662,7 @@ mpeg/id3v2/id3v2synchdata.o: mpeg/id3v2/id3v2synchdata.cpp.o
 
 # target to build an object file
 mpeg/id3v2/id3v2synchdata.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2synchdata.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2synchdata.cpp.o
 .PHONY : mpeg/id3v2/id3v2synchdata.cpp.o
 
 mpeg/id3v2/id3v2synchdata.i: mpeg/id3v2/id3v2synchdata.cpp.i
@@ -1671,7 +1671,7 @@ mpeg/id3v2/id3v2synchdata.i: mpeg/id3v2/id3v2synchdata.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/id3v2synchdata.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2synchdata.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2synchdata.cpp.i
 .PHONY : mpeg/id3v2/id3v2synchdata.cpp.i
 
 mpeg/id3v2/id3v2synchdata.s: mpeg/id3v2/id3v2synchdata.cpp.s
@@ -1680,7 +1680,7 @@ mpeg/id3v2/id3v2synchdata.s: mpeg/id3v2/id3v2synchdata.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/id3v2synchdata.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2synchdata.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2synchdata.cpp.s
 .PHONY : mpeg/id3v2/id3v2synchdata.cpp.s
 
 mpeg/id3v2/id3v2tag.o: mpeg/id3v2/id3v2tag.cpp.o
@@ -1689,7 +1689,7 @@ mpeg/id3v2/id3v2tag.o: mpeg/id3v2/id3v2tag.cpp.o
 
 # target to build an object file
 mpeg/id3v2/id3v2tag.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.o
 .PHONY : mpeg/id3v2/id3v2tag.cpp.o
 
 mpeg/id3v2/id3v2tag.i: mpeg/id3v2/id3v2tag.cpp.i
@@ -1698,7 +1698,7 @@ mpeg/id3v2/id3v2tag.i: mpeg/id3v2/id3v2tag.cpp.i
 
 # target to preprocess a source file
 mpeg/id3v2/id3v2tag.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.i
 .PHONY : mpeg/id3v2/id3v2tag.cpp.i
 
 mpeg/id3v2/id3v2tag.s: mpeg/id3v2/id3v2tag.cpp.s
@@ -1707,7 +1707,7 @@ mpeg/id3v2/id3v2tag.s: mpeg/id3v2/id3v2tag.cpp.s
 
 # target to generate assembly for a file
 mpeg/id3v2/id3v2tag.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.s
 .PHONY : mpeg/id3v2/id3v2tag.cpp.s
 
 mpeg/mpegfile.o: mpeg/mpegfile.cpp.o
@@ -1716,7 +1716,7 @@ mpeg/mpegfile.o: mpeg/mpegfile.cpp.o
 
 # target to build an object file
 mpeg/mpegfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.o
 .PHONY : mpeg/mpegfile.cpp.o
 
 mpeg/mpegfile.i: mpeg/mpegfile.cpp.i
@@ -1725,7 +1725,7 @@ mpeg/mpegfile.i: mpeg/mpegfile.cpp.i
 
 # target to preprocess a source file
 mpeg/mpegfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.i
 .PHONY : mpeg/mpegfile.cpp.i
 
 mpeg/mpegfile.s: mpeg/mpegfile.cpp.s
@@ -1734,7 +1734,7 @@ mpeg/mpegfile.s: mpeg/mpegfile.cpp.s
 
 # target to generate assembly for a file
 mpeg/mpegfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.s
 .PHONY : mpeg/mpegfile.cpp.s
 
 mpeg/mpegheader.o: mpeg/mpegheader.cpp.o
@@ -1743,7 +1743,7 @@ mpeg/mpegheader.o: mpeg/mpegheader.cpp.o
 
 # target to build an object file
 mpeg/mpegheader.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegheader.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegheader.cpp.o
 .PHONY : mpeg/mpegheader.cpp.o
 
 mpeg/mpegheader.i: mpeg/mpegheader.cpp.i
@@ -1752,7 +1752,7 @@ mpeg/mpegheader.i: mpeg/mpegheader.cpp.i
 
 # target to preprocess a source file
 mpeg/mpegheader.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegheader.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegheader.cpp.i
 .PHONY : mpeg/mpegheader.cpp.i
 
 mpeg/mpegheader.s: mpeg/mpegheader.cpp.s
@@ -1761,7 +1761,7 @@ mpeg/mpegheader.s: mpeg/mpegheader.cpp.s
 
 # target to generate assembly for a file
 mpeg/mpegheader.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegheader.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegheader.cpp.s
 .PHONY : mpeg/mpegheader.cpp.s
 
 mpeg/mpegproperties.o: mpeg/mpegproperties.cpp.o
@@ -1770,7 +1770,7 @@ mpeg/mpegproperties.o: mpeg/mpegproperties.cpp.o
 
 # target to build an object file
 mpeg/mpegproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.o
 .PHONY : mpeg/mpegproperties.cpp.o
 
 mpeg/mpegproperties.i: mpeg/mpegproperties.cpp.i
@@ -1779,7 +1779,7 @@ mpeg/mpegproperties.i: mpeg/mpegproperties.cpp.i
 
 # target to preprocess a source file
 mpeg/mpegproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.i
 .PHONY : mpeg/mpegproperties.cpp.i
 
 mpeg/mpegproperties.s: mpeg/mpegproperties.cpp.s
@@ -1788,7 +1788,7 @@ mpeg/mpegproperties.s: mpeg/mpegproperties.cpp.s
 
 # target to generate assembly for a file
 mpeg/mpegproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.s
 .PHONY : mpeg/mpegproperties.cpp.s
 
 mpeg/xingheader.o: mpeg/xingheader.cpp.o
@@ -1797,7 +1797,7 @@ mpeg/xingheader.o: mpeg/xingheader.cpp.o
 
 # target to build an object file
 mpeg/xingheader.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.o
 .PHONY : mpeg/xingheader.cpp.o
 
 mpeg/xingheader.i: mpeg/xingheader.cpp.i
@@ -1806,7 +1806,7 @@ mpeg/xingheader.i: mpeg/xingheader.cpp.i
 
 # target to preprocess a source file
 mpeg/xingheader.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.i
 .PHONY : mpeg/xingheader.cpp.i
 
 mpeg/xingheader.s: mpeg/xingheader.cpp.s
@@ -1815,7 +1815,7 @@ mpeg/xingheader.s: mpeg/xingheader.cpp.s
 
 # target to generate assembly for a file
 mpeg/xingheader.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.s
 .PHONY : mpeg/xingheader.cpp.s
 
 ogg/flac/oggflacfile.o: ogg/flac/oggflacfile.cpp.o
@@ -1824,7 +1824,7 @@ ogg/flac/oggflacfile.o: ogg/flac/oggflacfile.cpp.o
 
 # target to build an object file
 ogg/flac/oggflacfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.o
 .PHONY : ogg/flac/oggflacfile.cpp.o
 
 ogg/flac/oggflacfile.i: ogg/flac/oggflacfile.cpp.i
@@ -1833,7 +1833,7 @@ ogg/flac/oggflacfile.i: ogg/flac/oggflacfile.cpp.i
 
 # target to preprocess a source file
 ogg/flac/oggflacfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.i
 .PHONY : ogg/flac/oggflacfile.cpp.i
 
 ogg/flac/oggflacfile.s: ogg/flac/oggflacfile.cpp.s
@@ -1842,7 +1842,7 @@ ogg/flac/oggflacfile.s: ogg/flac/oggflacfile.cpp.s
 
 # target to generate assembly for a file
 ogg/flac/oggflacfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.s
 .PHONY : ogg/flac/oggflacfile.cpp.s
 
 ogg/oggfile.o: ogg/oggfile.cpp.o
@@ -1851,7 +1851,7 @@ ogg/oggfile.o: ogg/oggfile.cpp.o
 
 # target to build an object file
 ogg/oggfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggfile.cpp.o
 .PHONY : ogg/oggfile.cpp.o
 
 ogg/oggfile.i: ogg/oggfile.cpp.i
@@ -1860,7 +1860,7 @@ ogg/oggfile.i: ogg/oggfile.cpp.i
 
 # target to preprocess a source file
 ogg/oggfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggfile.cpp.i
 .PHONY : ogg/oggfile.cpp.i
 
 ogg/oggfile.s: ogg/oggfile.cpp.s
@@ -1869,7 +1869,7 @@ ogg/oggfile.s: ogg/oggfile.cpp.s
 
 # target to generate assembly for a file
 ogg/oggfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggfile.cpp.s
 .PHONY : ogg/oggfile.cpp.s
 
 ogg/oggpage.o: ogg/oggpage.cpp.o
@@ -1878,7 +1878,7 @@ ogg/oggpage.o: ogg/oggpage.cpp.o
 
 # target to build an object file
 ogg/oggpage.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpage.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpage.cpp.o
 .PHONY : ogg/oggpage.cpp.o
 
 ogg/oggpage.i: ogg/oggpage.cpp.i
@@ -1887,7 +1887,7 @@ ogg/oggpage.i: ogg/oggpage.cpp.i
 
 # target to preprocess a source file
 ogg/oggpage.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpage.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpage.cpp.i
 .PHONY : ogg/oggpage.cpp.i
 
 ogg/oggpage.s: ogg/oggpage.cpp.s
@@ -1896,7 +1896,7 @@ ogg/oggpage.s: ogg/oggpage.cpp.s
 
 # target to generate assembly for a file
 ogg/oggpage.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpage.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpage.cpp.s
 .PHONY : ogg/oggpage.cpp.s
 
 ogg/oggpageheader.o: ogg/oggpageheader.cpp.o
@@ -1905,7 +1905,7 @@ ogg/oggpageheader.o: ogg/oggpageheader.cpp.o
 
 # target to build an object file
 ogg/oggpageheader.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpageheader.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpageheader.cpp.o
 .PHONY : ogg/oggpageheader.cpp.o
 
 ogg/oggpageheader.i: ogg/oggpageheader.cpp.i
@@ -1914,7 +1914,7 @@ ogg/oggpageheader.i: ogg/oggpageheader.cpp.i
 
 # target to preprocess a source file
 ogg/oggpageheader.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpageheader.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpageheader.cpp.i
 .PHONY : ogg/oggpageheader.cpp.i
 
 ogg/oggpageheader.s: ogg/oggpageheader.cpp.s
@@ -1923,7 +1923,7 @@ ogg/oggpageheader.s: ogg/oggpageheader.cpp.s
 
 # target to generate assembly for a file
 ogg/oggpageheader.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpageheader.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpageheader.cpp.s
 .PHONY : ogg/oggpageheader.cpp.s
 
 ogg/opus/opusfile.o: ogg/opus/opusfile.cpp.o
@@ -1932,7 +1932,7 @@ ogg/opus/opusfile.o: ogg/opus/opusfile.cpp.o
 
 # target to build an object file
 ogg/opus/opusfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o
 .PHONY : ogg/opus/opusfile.cpp.o
 
 ogg/opus/opusfile.i: ogg/opus/opusfile.cpp.i
@@ -1941,7 +1941,7 @@ ogg/opus/opusfile.i: ogg/opus/opusfile.cpp.i
 
 # target to preprocess a source file
 ogg/opus/opusfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.i
 .PHONY : ogg/opus/opusfile.cpp.i
 
 ogg/opus/opusfile.s: ogg/opus/opusfile.cpp.s
@@ -1950,7 +1950,7 @@ ogg/opus/opusfile.s: ogg/opus/opusfile.cpp.s
 
 # target to generate assembly for a file
 ogg/opus/opusfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.s
 .PHONY : ogg/opus/opusfile.cpp.s
 
 ogg/opus/opusproperties.o: ogg/opus/opusproperties.cpp.o
@@ -1959,7 +1959,7 @@ ogg/opus/opusproperties.o: ogg/opus/opusproperties.cpp.o
 
 # target to build an object file
 ogg/opus/opusproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusproperties.cpp.o
 .PHONY : ogg/opus/opusproperties.cpp.o
 
 ogg/opus/opusproperties.i: ogg/opus/opusproperties.cpp.i
@@ -1968,7 +1968,7 @@ ogg/opus/opusproperties.i: ogg/opus/opusproperties.cpp.i
 
 # target to preprocess a source file
 ogg/opus/opusproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusproperties.cpp.i
 .PHONY : ogg/opus/opusproperties.cpp.i
 
 ogg/opus/opusproperties.s: ogg/opus/opusproperties.cpp.s
@@ -1977,7 +1977,7 @@ ogg/opus/opusproperties.s: ogg/opus/opusproperties.cpp.s
 
 # target to generate assembly for a file
 ogg/opus/opusproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusproperties.cpp.s
 .PHONY : ogg/opus/opusproperties.cpp.s
 
 ogg/speex/speexfile.o: ogg/speex/speexfile.cpp.o
@@ -1986,7 +1986,7 @@ ogg/speex/speexfile.o: ogg/speex/speexfile.cpp.o
 
 # target to build an object file
 ogg/speex/speexfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.o
 .PHONY : ogg/speex/speexfile.cpp.o
 
 ogg/speex/speexfile.i: ogg/speex/speexfile.cpp.i
@@ -1995,7 +1995,7 @@ ogg/speex/speexfile.i: ogg/speex/speexfile.cpp.i
 
 # target to preprocess a source file
 ogg/speex/speexfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.i
 .PHONY : ogg/speex/speexfile.cpp.i
 
 ogg/speex/speexfile.s: ogg/speex/speexfile.cpp.s
@@ -2004,7 +2004,7 @@ ogg/speex/speexfile.s: ogg/speex/speexfile.cpp.s
 
 # target to generate assembly for a file
 ogg/speex/speexfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.s
 .PHONY : ogg/speex/speexfile.cpp.s
 
 ogg/speex/speexproperties.o: ogg/speex/speexproperties.cpp.o
@@ -2013,7 +2013,7 @@ ogg/speex/speexproperties.o: ogg/speex/speexproperties.cpp.o
 
 # target to build an object file
 ogg/speex/speexproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexproperties.cpp.o
 .PHONY : ogg/speex/speexproperties.cpp.o
 
 ogg/speex/speexproperties.i: ogg/speex/speexproperties.cpp.i
@@ -2022,7 +2022,7 @@ ogg/speex/speexproperties.i: ogg/speex/speexproperties.cpp.i
 
 # target to preprocess a source file
 ogg/speex/speexproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexproperties.cpp.i
 .PHONY : ogg/speex/speexproperties.cpp.i
 
 ogg/speex/speexproperties.s: ogg/speex/speexproperties.cpp.s
@@ -2031,7 +2031,7 @@ ogg/speex/speexproperties.s: ogg/speex/speexproperties.cpp.s
 
 # target to generate assembly for a file
 ogg/speex/speexproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexproperties.cpp.s
 .PHONY : ogg/speex/speexproperties.cpp.s
 
 ogg/vorbis/vorbisfile.o: ogg/vorbis/vorbisfile.cpp.o
@@ -2040,7 +2040,7 @@ ogg/vorbis/vorbisfile.o: ogg/vorbis/vorbisfile.cpp.o
 
 # target to build an object file
 ogg/vorbis/vorbisfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.o
 .PHONY : ogg/vorbis/vorbisfile.cpp.o
 
 ogg/vorbis/vorbisfile.i: ogg/vorbis/vorbisfile.cpp.i
@@ -2049,7 +2049,7 @@ ogg/vorbis/vorbisfile.i: ogg/vorbis/vorbisfile.cpp.i
 
 # target to preprocess a source file
 ogg/vorbis/vorbisfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.i
 .PHONY : ogg/vorbis/vorbisfile.cpp.i
 
 ogg/vorbis/vorbisfile.s: ogg/vorbis/vorbisfile.cpp.s
@@ -2058,7 +2058,7 @@ ogg/vorbis/vorbisfile.s: ogg/vorbis/vorbisfile.cpp.s
 
 # target to generate assembly for a file
 ogg/vorbis/vorbisfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.s
 .PHONY : ogg/vorbis/vorbisfile.cpp.s
 
 ogg/vorbis/vorbisproperties.o: ogg/vorbis/vorbisproperties.cpp.o
@@ -2067,7 +2067,7 @@ ogg/vorbis/vorbisproperties.o: ogg/vorbis/vorbisproperties.cpp.o
 
 # target to build an object file
 ogg/vorbis/vorbisproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisproperties.cpp.o
 .PHONY : ogg/vorbis/vorbisproperties.cpp.o
 
 ogg/vorbis/vorbisproperties.i: ogg/vorbis/vorbisproperties.cpp.i
@@ -2076,7 +2076,7 @@ ogg/vorbis/vorbisproperties.i: ogg/vorbis/vorbisproperties.cpp.i
 
 # target to preprocess a source file
 ogg/vorbis/vorbisproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisproperties.cpp.i
 .PHONY : ogg/vorbis/vorbisproperties.cpp.i
 
 ogg/vorbis/vorbisproperties.s: ogg/vorbis/vorbisproperties.cpp.s
@@ -2085,7 +2085,7 @@ ogg/vorbis/vorbisproperties.s: ogg/vorbis/vorbisproperties.cpp.s
 
 # target to generate assembly for a file
 ogg/vorbis/vorbisproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisproperties.cpp.s
 .PHONY : ogg/vorbis/vorbisproperties.cpp.s
 
 ogg/xiphcomment.o: ogg/xiphcomment.cpp.o
@@ -2094,7 +2094,7 @@ ogg/xiphcomment.o: ogg/xiphcomment.cpp.o
 
 # target to build an object file
 ogg/xiphcomment.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/xiphcomment.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/xiphcomment.cpp.o
 .PHONY : ogg/xiphcomment.cpp.o
 
 ogg/xiphcomment.i: ogg/xiphcomment.cpp.i
@@ -2103,7 +2103,7 @@ ogg/xiphcomment.i: ogg/xiphcomment.cpp.i
 
 # target to preprocess a source file
 ogg/xiphcomment.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/xiphcomment.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/xiphcomment.cpp.i
 .PHONY : ogg/xiphcomment.cpp.i
 
 ogg/xiphcomment.s: ogg/xiphcomment.cpp.s
@@ -2112,7 +2112,7 @@ ogg/xiphcomment.s: ogg/xiphcomment.cpp.s
 
 # target to generate assembly for a file
 ogg/xiphcomment.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/xiphcomment.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/xiphcomment.cpp.s
 .PHONY : ogg/xiphcomment.cpp.s
 
 riff/aiff/aifffile.o: riff/aiff/aifffile.cpp.o
@@ -2121,7 +2121,7 @@ riff/aiff/aifffile.o: riff/aiff/aifffile.cpp.o
 
 # target to build an object file
 riff/aiff/aifffile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o
 .PHONY : riff/aiff/aifffile.cpp.o
 
 riff/aiff/aifffile.i: riff/aiff/aifffile.cpp.i
@@ -2130,7 +2130,7 @@ riff/aiff/aifffile.i: riff/aiff/aifffile.cpp.i
 
 # target to preprocess a source file
 riff/aiff/aifffile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.i
 .PHONY : riff/aiff/aifffile.cpp.i
 
 riff/aiff/aifffile.s: riff/aiff/aifffile.cpp.s
@@ -2139,7 +2139,7 @@ riff/aiff/aifffile.s: riff/aiff/aifffile.cpp.s
 
 # target to generate assembly for a file
 riff/aiff/aifffile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.s
 .PHONY : riff/aiff/aifffile.cpp.s
 
 riff/aiff/aiffproperties.o: riff/aiff/aiffproperties.cpp.o
@@ -2148,7 +2148,7 @@ riff/aiff/aiffproperties.o: riff/aiff/aiffproperties.cpp.o
 
 # target to build an object file
 riff/aiff/aiffproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.o
 .PHONY : riff/aiff/aiffproperties.cpp.o
 
 riff/aiff/aiffproperties.i: riff/aiff/aiffproperties.cpp.i
@@ -2157,7 +2157,7 @@ riff/aiff/aiffproperties.i: riff/aiff/aiffproperties.cpp.i
 
 # target to preprocess a source file
 riff/aiff/aiffproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.i
 .PHONY : riff/aiff/aiffproperties.cpp.i
 
 riff/aiff/aiffproperties.s: riff/aiff/aiffproperties.cpp.s
@@ -2166,7 +2166,7 @@ riff/aiff/aiffproperties.s: riff/aiff/aiffproperties.cpp.s
 
 # target to generate assembly for a file
 riff/aiff/aiffproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.s
 .PHONY : riff/aiff/aiffproperties.cpp.s
 
 riff/rifffile.o: riff/rifffile.cpp.o
@@ -2175,7 +2175,7 @@ riff/rifffile.o: riff/rifffile.cpp.o
 
 # target to build an object file
 riff/rifffile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/rifffile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/rifffile.cpp.o
 .PHONY : riff/rifffile.cpp.o
 
 riff/rifffile.i: riff/rifffile.cpp.i
@@ -2184,7 +2184,7 @@ riff/rifffile.i: riff/rifffile.cpp.i
 
 # target to preprocess a source file
 riff/rifffile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/rifffile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/rifffile.cpp.i
 .PHONY : riff/rifffile.cpp.i
 
 riff/rifffile.s: riff/rifffile.cpp.s
@@ -2193,7 +2193,7 @@ riff/rifffile.s: riff/rifffile.cpp.s
 
 # target to generate assembly for a file
 riff/rifffile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/rifffile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/rifffile.cpp.s
 .PHONY : riff/rifffile.cpp.s
 
 riff/wav/infotag.o: riff/wav/infotag.cpp.o
@@ -2202,7 +2202,7 @@ riff/wav/infotag.o: riff/wav/infotag.cpp.o
 
 # target to build an object file
 riff/wav/infotag.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/infotag.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/infotag.cpp.o
 .PHONY : riff/wav/infotag.cpp.o
 
 riff/wav/infotag.i: riff/wav/infotag.cpp.i
@@ -2211,7 +2211,7 @@ riff/wav/infotag.i: riff/wav/infotag.cpp.i
 
 # target to preprocess a source file
 riff/wav/infotag.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/infotag.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/infotag.cpp.i
 .PHONY : riff/wav/infotag.cpp.i
 
 riff/wav/infotag.s: riff/wav/infotag.cpp.s
@@ -2220,7 +2220,7 @@ riff/wav/infotag.s: riff/wav/infotag.cpp.s
 
 # target to generate assembly for a file
 riff/wav/infotag.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/infotag.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/infotag.cpp.s
 .PHONY : riff/wav/infotag.cpp.s
 
 riff/wav/wavfile.o: riff/wav/wavfile.cpp.o
@@ -2229,7 +2229,7 @@ riff/wav/wavfile.o: riff/wav/wavfile.cpp.o
 
 # target to build an object file
 riff/wav/wavfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o
 .PHONY : riff/wav/wavfile.cpp.o
 
 riff/wav/wavfile.i: riff/wav/wavfile.cpp.i
@@ -2238,7 +2238,7 @@ riff/wav/wavfile.i: riff/wav/wavfile.cpp.i
 
 # target to preprocess a source file
 riff/wav/wavfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.i
 .PHONY : riff/wav/wavfile.cpp.i
 
 riff/wav/wavfile.s: riff/wav/wavfile.cpp.s
@@ -2247,7 +2247,7 @@ riff/wav/wavfile.s: riff/wav/wavfile.cpp.s
 
 # target to generate assembly for a file
 riff/wav/wavfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.s
 .PHONY : riff/wav/wavfile.cpp.s
 
 riff/wav/wavproperties.o: riff/wav/wavproperties.cpp.o
@@ -2256,7 +2256,7 @@ riff/wav/wavproperties.o: riff/wav/wavproperties.cpp.o
 
 # target to build an object file
 riff/wav/wavproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.o
 .PHONY : riff/wav/wavproperties.cpp.o
 
 riff/wav/wavproperties.i: riff/wav/wavproperties.cpp.i
@@ -2265,7 +2265,7 @@ riff/wav/wavproperties.i: riff/wav/wavproperties.cpp.i
 
 # target to preprocess a source file
 riff/wav/wavproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.i
 .PHONY : riff/wav/wavproperties.cpp.i
 
 riff/wav/wavproperties.s: riff/wav/wavproperties.cpp.s
@@ -2274,7 +2274,7 @@ riff/wav/wavproperties.s: riff/wav/wavproperties.cpp.s
 
 # target to generate assembly for a file
 riff/wav/wavproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.s
 .PHONY : riff/wav/wavproperties.cpp.s
 
 s3m/s3mfile.o: s3m/s3mfile.cpp.o
@@ -2283,7 +2283,7 @@ s3m/s3mfile.o: s3m/s3mfile.cpp.o
 
 # target to build an object file
 s3m/s3mfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mfile.cpp.o
 .PHONY : s3m/s3mfile.cpp.o
 
 s3m/s3mfile.i: s3m/s3mfile.cpp.i
@@ -2292,7 +2292,7 @@ s3m/s3mfile.i: s3m/s3mfile.cpp.i
 
 # target to preprocess a source file
 s3m/s3mfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mfile.cpp.i
 .PHONY : s3m/s3mfile.cpp.i
 
 s3m/s3mfile.s: s3m/s3mfile.cpp.s
@@ -2301,7 +2301,7 @@ s3m/s3mfile.s: s3m/s3mfile.cpp.s
 
 # target to generate assembly for a file
 s3m/s3mfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mfile.cpp.s
 .PHONY : s3m/s3mfile.cpp.s
 
 s3m/s3mproperties.o: s3m/s3mproperties.cpp.o
@@ -2310,7 +2310,7 @@ s3m/s3mproperties.o: s3m/s3mproperties.cpp.o
 
 # target to build an object file
 s3m/s3mproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mproperties.cpp.o
 .PHONY : s3m/s3mproperties.cpp.o
 
 s3m/s3mproperties.i: s3m/s3mproperties.cpp.i
@@ -2319,7 +2319,7 @@ s3m/s3mproperties.i: s3m/s3mproperties.cpp.i
 
 # target to preprocess a source file
 s3m/s3mproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mproperties.cpp.i
 .PHONY : s3m/s3mproperties.cpp.i
 
 s3m/s3mproperties.s: s3m/s3mproperties.cpp.s
@@ -2328,7 +2328,7 @@ s3m/s3mproperties.s: s3m/s3mproperties.cpp.s
 
 # target to generate assembly for a file
 s3m/s3mproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mproperties.cpp.s
 .PHONY : s3m/s3mproperties.cpp.s
 
 tag.o: tag.cpp.o
@@ -2337,7 +2337,7 @@ tag.o: tag.cpp.o
 
 # target to build an object file
 tag.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.o
 .PHONY : tag.cpp.o
 
 tag.i: tag.cpp.i
@@ -2346,7 +2346,7 @@ tag.i: tag.cpp.i
 
 # target to preprocess a source file
 tag.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.i
 .PHONY : tag.cpp.i
 
 tag.s: tag.cpp.s
@@ -2355,7 +2355,7 @@ tag.s: tag.cpp.s
 
 # target to generate assembly for a file
 tag.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.s
 .PHONY : tag.cpp.s
 
 tagunion.o: tagunion.cpp.o
@@ -2364,7 +2364,7 @@ tagunion.o: tagunion.cpp.o
 
 # target to build an object file
 tagunion.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o
 .PHONY : tagunion.cpp.o
 
 tagunion.i: tagunion.cpp.i
@@ -2373,7 +2373,7 @@ tagunion.i: tagunion.cpp.i
 
 # target to preprocess a source file
 tagunion.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.i
 .PHONY : tagunion.cpp.i
 
 tagunion.s: tagunion.cpp.s
@@ -2382,7 +2382,7 @@ tagunion.s: tagunion.cpp.s
 
 # target to generate assembly for a file
 tagunion.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.s
 .PHONY : tagunion.cpp.s
 
 tagutils.o: tagutils.cpp.o
@@ -2391,7 +2391,7 @@ tagutils.o: tagutils.cpp.o
 
 # target to build an object file
 tagutils.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o
 .PHONY : tagutils.cpp.o
 
 tagutils.i: tagutils.cpp.i
@@ -2400,7 +2400,7 @@ tagutils.i: tagutils.cpp.i
 
 # target to preprocess a source file
 tagutils.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.i
 .PHONY : tagutils.cpp.i
 
 tagutils.s: tagutils.cpp.s
@@ -2409,7 +2409,7 @@ tagutils.s: tagutils.cpp.s
 
 # target to generate assembly for a file
 tagutils.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.s
 .PHONY : tagutils.cpp.s
 
 toolkit/tbytevector.o: toolkit/tbytevector.cpp.o
@@ -2418,7 +2418,7 @@ toolkit/tbytevector.o: toolkit/tbytevector.cpp.o
 
 # target to build an object file
 toolkit/tbytevector.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevector.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevector.cpp.o
 .PHONY : toolkit/tbytevector.cpp.o
 
 toolkit/tbytevector.i: toolkit/tbytevector.cpp.i
@@ -2427,7 +2427,7 @@ toolkit/tbytevector.i: toolkit/tbytevector.cpp.i
 
 # target to preprocess a source file
 toolkit/tbytevector.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevector.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevector.cpp.i
 .PHONY : toolkit/tbytevector.cpp.i
 
 toolkit/tbytevector.s: toolkit/tbytevector.cpp.s
@@ -2436,7 +2436,7 @@ toolkit/tbytevector.s: toolkit/tbytevector.cpp.s
 
 # target to generate assembly for a file
 toolkit/tbytevector.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevector.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevector.cpp.s
 .PHONY : toolkit/tbytevector.cpp.s
 
 toolkit/tbytevectorlist.o: toolkit/tbytevectorlist.cpp.o
@@ -2445,7 +2445,7 @@ toolkit/tbytevectorlist.o: toolkit/tbytevectorlist.cpp.o
 
 # target to build an object file
 toolkit/tbytevectorlist.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorlist.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorlist.cpp.o
 .PHONY : toolkit/tbytevectorlist.cpp.o
 
 toolkit/tbytevectorlist.i: toolkit/tbytevectorlist.cpp.i
@@ -2454,7 +2454,7 @@ toolkit/tbytevectorlist.i: toolkit/tbytevectorlist.cpp.i
 
 # target to preprocess a source file
 toolkit/tbytevectorlist.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorlist.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorlist.cpp.i
 .PHONY : toolkit/tbytevectorlist.cpp.i
 
 toolkit/tbytevectorlist.s: toolkit/tbytevectorlist.cpp.s
@@ -2463,7 +2463,7 @@ toolkit/tbytevectorlist.s: toolkit/tbytevectorlist.cpp.s
 
 # target to generate assembly for a file
 toolkit/tbytevectorlist.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorlist.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorlist.cpp.s
 .PHONY : toolkit/tbytevectorlist.cpp.s
 
 toolkit/tbytevectorstream.o: toolkit/tbytevectorstream.cpp.o
@@ -2472,7 +2472,7 @@ toolkit/tbytevectorstream.o: toolkit/tbytevectorstream.cpp.o
 
 # target to build an object file
 toolkit/tbytevectorstream.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorstream.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorstream.cpp.o
 .PHONY : toolkit/tbytevectorstream.cpp.o
 
 toolkit/tbytevectorstream.i: toolkit/tbytevectorstream.cpp.i
@@ -2481,7 +2481,7 @@ toolkit/tbytevectorstream.i: toolkit/tbytevectorstream.cpp.i
 
 # target to preprocess a source file
 toolkit/tbytevectorstream.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorstream.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorstream.cpp.i
 .PHONY : toolkit/tbytevectorstream.cpp.i
 
 toolkit/tbytevectorstream.s: toolkit/tbytevectorstream.cpp.s
@@ -2490,7 +2490,7 @@ toolkit/tbytevectorstream.s: toolkit/tbytevectorstream.cpp.s
 
 # target to generate assembly for a file
 toolkit/tbytevectorstream.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorstream.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorstream.cpp.s
 .PHONY : toolkit/tbytevectorstream.cpp.s
 
 toolkit/tdebug.o: toolkit/tdebug.cpp.o
@@ -2499,7 +2499,7 @@ toolkit/tdebug.o: toolkit/tdebug.cpp.o
 
 # target to build an object file
 toolkit/tdebug.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebug.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebug.cpp.o
 .PHONY : toolkit/tdebug.cpp.o
 
 toolkit/tdebug.i: toolkit/tdebug.cpp.i
@@ -2508,7 +2508,7 @@ toolkit/tdebug.i: toolkit/tdebug.cpp.i
 
 # target to preprocess a source file
 toolkit/tdebug.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebug.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebug.cpp.i
 .PHONY : toolkit/tdebug.cpp.i
 
 toolkit/tdebug.s: toolkit/tdebug.cpp.s
@@ -2517,7 +2517,7 @@ toolkit/tdebug.s: toolkit/tdebug.cpp.s
 
 # target to generate assembly for a file
 toolkit/tdebug.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebug.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebug.cpp.s
 .PHONY : toolkit/tdebug.cpp.s
 
 toolkit/tdebuglistener.o: toolkit/tdebuglistener.cpp.o
@@ -2526,7 +2526,7 @@ toolkit/tdebuglistener.o: toolkit/tdebuglistener.cpp.o
 
 # target to build an object file
 toolkit/tdebuglistener.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebuglistener.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebuglistener.cpp.o
 .PHONY : toolkit/tdebuglistener.cpp.o
 
 toolkit/tdebuglistener.i: toolkit/tdebuglistener.cpp.i
@@ -2535,7 +2535,7 @@ toolkit/tdebuglistener.i: toolkit/tdebuglistener.cpp.i
 
 # target to preprocess a source file
 toolkit/tdebuglistener.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebuglistener.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebuglistener.cpp.i
 .PHONY : toolkit/tdebuglistener.cpp.i
 
 toolkit/tdebuglistener.s: toolkit/tdebuglistener.cpp.s
@@ -2544,7 +2544,7 @@ toolkit/tdebuglistener.s: toolkit/tdebuglistener.cpp.s
 
 # target to generate assembly for a file
 toolkit/tdebuglistener.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebuglistener.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebuglistener.cpp.s
 .PHONY : toolkit/tdebuglistener.cpp.s
 
 toolkit/tfile.o: toolkit/tfile.cpp.o
@@ -2553,7 +2553,7 @@ toolkit/tfile.o: toolkit/tfile.cpp.o
 
 # target to build an object file
 toolkit/tfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.o
 .PHONY : toolkit/tfile.cpp.o
 
 toolkit/tfile.i: toolkit/tfile.cpp.i
@@ -2562,7 +2562,7 @@ toolkit/tfile.i: toolkit/tfile.cpp.i
 
 # target to preprocess a source file
 toolkit/tfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.i
 .PHONY : toolkit/tfile.cpp.i
 
 toolkit/tfile.s: toolkit/tfile.cpp.s
@@ -2571,7 +2571,7 @@ toolkit/tfile.s: toolkit/tfile.cpp.s
 
 # target to generate assembly for a file
 toolkit/tfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.s
 .PHONY : toolkit/tfile.cpp.s
 
 toolkit/tfilestream.o: toolkit/tfilestream.cpp.o
@@ -2580,7 +2580,7 @@ toolkit/tfilestream.o: toolkit/tfilestream.cpp.o
 
 # target to build an object file
 toolkit/tfilestream.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfilestream.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfilestream.cpp.o
 .PHONY : toolkit/tfilestream.cpp.o
 
 toolkit/tfilestream.i: toolkit/tfilestream.cpp.i
@@ -2589,7 +2589,7 @@ toolkit/tfilestream.i: toolkit/tfilestream.cpp.i
 
 # target to preprocess a source file
 toolkit/tfilestream.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfilestream.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfilestream.cpp.i
 .PHONY : toolkit/tfilestream.cpp.i
 
 toolkit/tfilestream.s: toolkit/tfilestream.cpp.s
@@ -2598,7 +2598,7 @@ toolkit/tfilestream.s: toolkit/tfilestream.cpp.s
 
 # target to generate assembly for a file
 toolkit/tfilestream.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfilestream.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfilestream.cpp.s
 .PHONY : toolkit/tfilestream.cpp.s
 
 toolkit/tiostream.o: toolkit/tiostream.cpp.o
@@ -2607,7 +2607,7 @@ toolkit/tiostream.o: toolkit/tiostream.cpp.o
 
 # target to build an object file
 toolkit/tiostream.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o
 .PHONY : toolkit/tiostream.cpp.o
 
 toolkit/tiostream.i: toolkit/tiostream.cpp.i
@@ -2616,7 +2616,7 @@ toolkit/tiostream.i: toolkit/tiostream.cpp.i
 
 # target to preprocess a source file
 toolkit/tiostream.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.i
 .PHONY : toolkit/tiostream.cpp.i
 
 toolkit/tiostream.s: toolkit/tiostream.cpp.s
@@ -2625,7 +2625,7 @@ toolkit/tiostream.s: toolkit/tiostream.cpp.s
 
 # target to generate assembly for a file
 toolkit/tiostream.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.s
 .PHONY : toolkit/tiostream.cpp.s
 
 toolkit/tpropertymap.o: toolkit/tpropertymap.cpp.o
@@ -2634,7 +2634,7 @@ toolkit/tpropertymap.o: toolkit/tpropertymap.cpp.o
 
 # target to build an object file
 toolkit/tpropertymap.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tpropertymap.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tpropertymap.cpp.o
 .PHONY : toolkit/tpropertymap.cpp.o
 
 toolkit/tpropertymap.i: toolkit/tpropertymap.cpp.i
@@ -2643,7 +2643,7 @@ toolkit/tpropertymap.i: toolkit/tpropertymap.cpp.i
 
 # target to preprocess a source file
 toolkit/tpropertymap.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tpropertymap.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tpropertymap.cpp.i
 .PHONY : toolkit/tpropertymap.cpp.i
 
 toolkit/tpropertymap.s: toolkit/tpropertymap.cpp.s
@@ -2652,7 +2652,7 @@ toolkit/tpropertymap.s: toolkit/tpropertymap.cpp.s
 
 # target to generate assembly for a file
 toolkit/tpropertymap.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tpropertymap.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tpropertymap.cpp.s
 .PHONY : toolkit/tpropertymap.cpp.s
 
 toolkit/trefcounter.o: toolkit/trefcounter.cpp.o
@@ -2661,7 +2661,7 @@ toolkit/trefcounter.o: toolkit/trefcounter.cpp.o
 
 # target to build an object file
 toolkit/trefcounter.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/trefcounter.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/trefcounter.cpp.o
 .PHONY : toolkit/trefcounter.cpp.o
 
 toolkit/trefcounter.i: toolkit/trefcounter.cpp.i
@@ -2670,7 +2670,7 @@ toolkit/trefcounter.i: toolkit/trefcounter.cpp.i
 
 # target to preprocess a source file
 toolkit/trefcounter.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/trefcounter.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/trefcounter.cpp.i
 .PHONY : toolkit/trefcounter.cpp.i
 
 toolkit/trefcounter.s: toolkit/trefcounter.cpp.s
@@ -2679,7 +2679,7 @@ toolkit/trefcounter.s: toolkit/trefcounter.cpp.s
 
 # target to generate assembly for a file
 toolkit/trefcounter.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/trefcounter.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/trefcounter.cpp.s
 .PHONY : toolkit/trefcounter.cpp.s
 
 toolkit/tstring.o: toolkit/tstring.cpp.o
@@ -2688,7 +2688,7 @@ toolkit/tstring.o: toolkit/tstring.cpp.o
 
 # target to build an object file
 toolkit/tstring.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o
 .PHONY : toolkit/tstring.cpp.o
 
 toolkit/tstring.i: toolkit/tstring.cpp.i
@@ -2697,7 +2697,7 @@ toolkit/tstring.i: toolkit/tstring.cpp.i
 
 # target to preprocess a source file
 toolkit/tstring.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.i
 .PHONY : toolkit/tstring.cpp.i
 
 toolkit/tstring.s: toolkit/tstring.cpp.s
@@ -2706,7 +2706,7 @@ toolkit/tstring.s: toolkit/tstring.cpp.s
 
 # target to generate assembly for a file
 toolkit/tstring.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.s
 .PHONY : toolkit/tstring.cpp.s
 
 toolkit/tstringlist.o: toolkit/tstringlist.cpp.o
@@ -2715,7 +2715,7 @@ toolkit/tstringlist.o: toolkit/tstringlist.cpp.o
 
 # target to build an object file
 toolkit/tstringlist.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstringlist.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstringlist.cpp.o
 .PHONY : toolkit/tstringlist.cpp.o
 
 toolkit/tstringlist.i: toolkit/tstringlist.cpp.i
@@ -2724,7 +2724,7 @@ toolkit/tstringlist.i: toolkit/tstringlist.cpp.i
 
 # target to preprocess a source file
 toolkit/tstringlist.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstringlist.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstringlist.cpp.i
 .PHONY : toolkit/tstringlist.cpp.i
 
 toolkit/tstringlist.s: toolkit/tstringlist.cpp.s
@@ -2733,7 +2733,7 @@ toolkit/tstringlist.s: toolkit/tstringlist.cpp.s
 
 # target to generate assembly for a file
 toolkit/tstringlist.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstringlist.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstringlist.cpp.s
 .PHONY : toolkit/tstringlist.cpp.s
 
 toolkit/tzlib.o: toolkit/tzlib.cpp.o
@@ -2742,7 +2742,7 @@ toolkit/tzlib.o: toolkit/tzlib.cpp.o
 
 # target to build an object file
 toolkit/tzlib.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tzlib.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tzlib.cpp.o
 .PHONY : toolkit/tzlib.cpp.o
 
 toolkit/tzlib.i: toolkit/tzlib.cpp.i
@@ -2751,7 +2751,7 @@ toolkit/tzlib.i: toolkit/tzlib.cpp.i
 
 # target to preprocess a source file
 toolkit/tzlib.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tzlib.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tzlib.cpp.i
 .PHONY : toolkit/tzlib.cpp.i
 
 toolkit/tzlib.s: toolkit/tzlib.cpp.s
@@ -2760,7 +2760,7 @@ toolkit/tzlib.s: toolkit/tzlib.cpp.s
 
 # target to generate assembly for a file
 toolkit/tzlib.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tzlib.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tzlib.cpp.s
 .PHONY : toolkit/tzlib.cpp.s
 
 trueaudio/trueaudiofile.o: trueaudio/trueaudiofile.cpp.o
@@ -2769,7 +2769,7 @@ trueaudio/trueaudiofile.o: trueaudio/trueaudiofile.cpp.o
 
 # target to build an object file
 trueaudio/trueaudiofile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.o
 .PHONY : trueaudio/trueaudiofile.cpp.o
 
 trueaudio/trueaudiofile.i: trueaudio/trueaudiofile.cpp.i
@@ -2778,7 +2778,7 @@ trueaudio/trueaudiofile.i: trueaudio/trueaudiofile.cpp.i
 
 # target to preprocess a source file
 trueaudio/trueaudiofile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.i
 .PHONY : trueaudio/trueaudiofile.cpp.i
 
 trueaudio/trueaudiofile.s: trueaudio/trueaudiofile.cpp.s
@@ -2787,7 +2787,7 @@ trueaudio/trueaudiofile.s: trueaudio/trueaudiofile.cpp.s
 
 # target to generate assembly for a file
 trueaudio/trueaudiofile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.s
 .PHONY : trueaudio/trueaudiofile.cpp.s
 
 trueaudio/trueaudioproperties.o: trueaudio/trueaudioproperties.cpp.o
@@ -2796,7 +2796,7 @@ trueaudio/trueaudioproperties.o: trueaudio/trueaudioproperties.cpp.o
 
 # target to build an object file
 trueaudio/trueaudioproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudioproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudioproperties.cpp.o
 .PHONY : trueaudio/trueaudioproperties.cpp.o
 
 trueaudio/trueaudioproperties.i: trueaudio/trueaudioproperties.cpp.i
@@ -2805,7 +2805,7 @@ trueaudio/trueaudioproperties.i: trueaudio/trueaudioproperties.cpp.i
 
 # target to preprocess a source file
 trueaudio/trueaudioproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudioproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudioproperties.cpp.i
 .PHONY : trueaudio/trueaudioproperties.cpp.i
 
 trueaudio/trueaudioproperties.s: trueaudio/trueaudioproperties.cpp.s
@@ -2814,7 +2814,7 @@ trueaudio/trueaudioproperties.s: trueaudio/trueaudioproperties.cpp.s
 
 # target to generate assembly for a file
 trueaudio/trueaudioproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudioproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudioproperties.cpp.s
 .PHONY : trueaudio/trueaudioproperties.cpp.s
 
 wavpack/wavpackfile.o: wavpack/wavpackfile.cpp.o
@@ -2823,7 +2823,7 @@ wavpack/wavpackfile.o: wavpack/wavpackfile.cpp.o
 
 # target to build an object file
 wavpack/wavpackfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o
 .PHONY : wavpack/wavpackfile.cpp.o
 
 wavpack/wavpackfile.i: wavpack/wavpackfile.cpp.i
@@ -2832,7 +2832,7 @@ wavpack/wavpackfile.i: wavpack/wavpackfile.cpp.i
 
 # target to preprocess a source file
 wavpack/wavpackfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.i
 .PHONY : wavpack/wavpackfile.cpp.i
 
 wavpack/wavpackfile.s: wavpack/wavpackfile.cpp.s
@@ -2841,7 +2841,7 @@ wavpack/wavpackfile.s: wavpack/wavpackfile.cpp.s
 
 # target to generate assembly for a file
 wavpack/wavpackfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.s
 .PHONY : wavpack/wavpackfile.cpp.s
 
 wavpack/wavpackproperties.o: wavpack/wavpackproperties.cpp.o
@@ -2850,7 +2850,7 @@ wavpack/wavpackproperties.o: wavpack/wavpackproperties.cpp.o
 
 # target to build an object file
 wavpack/wavpackproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackproperties.cpp.o
 .PHONY : wavpack/wavpackproperties.cpp.o
 
 wavpack/wavpackproperties.i: wavpack/wavpackproperties.cpp.i
@@ -2859,7 +2859,7 @@ wavpack/wavpackproperties.i: wavpack/wavpackproperties.cpp.i
 
 # target to preprocess a source file
 wavpack/wavpackproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackproperties.cpp.i
 .PHONY : wavpack/wavpackproperties.cpp.i
 
 wavpack/wavpackproperties.s: wavpack/wavpackproperties.cpp.s
@@ -2868,7 +2868,7 @@ wavpack/wavpackproperties.s: wavpack/wavpackproperties.cpp.s
 
 # target to generate assembly for a file
 wavpack/wavpackproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackproperties.cpp.s
 .PHONY : wavpack/wavpackproperties.cpp.s
 
 xm/xmfile.o: xm/xmfile.cpp.o
@@ -2877,7 +2877,7 @@ xm/xmfile.o: xm/xmfile.cpp.o
 
 # target to build an object file
 xm/xmfile.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmfile.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmfile.cpp.o
 .PHONY : xm/xmfile.cpp.o
 
 xm/xmfile.i: xm/xmfile.cpp.i
@@ -2886,7 +2886,7 @@ xm/xmfile.i: xm/xmfile.cpp.i
 
 # target to preprocess a source file
 xm/xmfile.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmfile.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmfile.cpp.i
 .PHONY : xm/xmfile.cpp.i
 
 xm/xmfile.s: xm/xmfile.cpp.s
@@ -2895,7 +2895,7 @@ xm/xmfile.s: xm/xmfile.cpp.s
 
 # target to generate assembly for a file
 xm/xmfile.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmfile.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmfile.cpp.s
 .PHONY : xm/xmfile.cpp.s
 
 xm/xmproperties.o: xm/xmproperties.cpp.o
@@ -2904,7 +2904,7 @@ xm/xmproperties.o: xm/xmproperties.cpp.o
 
 # target to build an object file
 xm/xmproperties.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmproperties.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmproperties.cpp.o
 .PHONY : xm/xmproperties.cpp.o
 
 xm/xmproperties.i: xm/xmproperties.cpp.i
@@ -2913,7 +2913,7 @@ xm/xmproperties.i: xm/xmproperties.cpp.i
 
 # target to preprocess a source file
 xm/xmproperties.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmproperties.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmproperties.cpp.i
 .PHONY : xm/xmproperties.cpp.i
 
 xm/xmproperties.s: xm/xmproperties.cpp.s
@@ -2922,7 +2922,7 @@ xm/xmproperties.s: xm/xmproperties.cpp.s
 
 # target to generate assembly for a file
 xm/xmproperties.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmproperties.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmproperties.cpp.s
 .PHONY : xm/xmproperties.cpp.s
 
 # Help Target
@@ -3255,6 +3255,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

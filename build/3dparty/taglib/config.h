@@ -30,6 +30,6 @@
 /* Indicates whether debug messages are shown even in release mode */
 /* #undef TRACE_IN_RELEASE */
 
-#define TESTS_DIR "/home/vorobey/ucode/utag/3dparty/taglib/tests/"
+#define TESTS_DIR "/home/vorobey/ucode/myUtag/3dparty/taglib/tests/"
 
 #endif

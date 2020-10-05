@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vorobey/ucode/utag
+CMAKE_SOURCE_DIR = /home/vorobey/ucode/myUtag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vorobey/ucode/utag/build
+CMAKE_BINARY_DIR = /home/vorobey/ucode/myUtag/build
 
 # Utility rule file for utag_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/vorobey/ucode/utag/build
 include app/CMakeFiles/utag_autogen.dir/progress.make
 
 app/CMakeFiles/utag_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vorobey/ucode/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target utag"
-	cd /home/vorobey/ucode/utag/build/app && /usr/bin/cmake -E cmake_autogen /home/vorobey/ucode/utag/build/app/CMakeFiles/utag_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vorobey/ucode/myUtag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target utag"
+	cd /home/vorobey/ucode/myUtag/build/app && /usr/bin/cmake -E cmake_autogen /home/vorobey/ucode/myUtag/build/app/CMakeFiles/utag_autogen.dir/AutogenInfo.json ""
 
 utag_autogen: app/CMakeFiles/utag_autogen
 utag_autogen: app/CMakeFiles/utag_autogen.dir/build.make
@@ -68,10 +68,10 @@ app/CMakeFiles/utag_autogen.dir/build: utag_autogen
 .PHONY : app/CMakeFiles/utag_autogen.dir/build
 
 app/CMakeFiles/utag_autogen.dir/clean:
-	cd /home/vorobey/ucode/utag/build/app && $(CMAKE_COMMAND) -P CMakeFiles/utag_autogen.dir/cmake_clean.cmake
+	cd /home/vorobey/ucode/myUtag/build/app && $(CMAKE_COMMAND) -P CMakeFiles/utag_autogen.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/utag_autogen.dir/clean
 
 app/CMakeFiles/utag_autogen.dir/depend:
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vorobey/ucode/utag /home/vorobey/ucode/utag/app /home/vorobey/ucode/utag/build /home/vorobey/ucode/utag/build/app /home/vorobey/ucode/utag/build/app/CMakeFiles/utag_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vorobey/ucode/myUtag /home/vorobey/ucode/myUtag/app /home/vorobey/ucode/myUtag/build /home/vorobey/ucode/myUtag/build/app /home/vorobey/ucode/myUtag/build/app/CMakeFiles/utag_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/utag_autogen.dir/depend
 

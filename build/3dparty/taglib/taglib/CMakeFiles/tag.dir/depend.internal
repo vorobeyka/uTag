@@ -24,12 +24,12 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apefile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apefile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apefooter.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apeitem.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apeproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apetag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apefile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apefile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apefooter.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apeitem.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apeproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apetag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefooter.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -37,8 +37,8 @@
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tdebug.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apefooter.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apefooter.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apefooter.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apefooter.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeitem.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -51,8 +51,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apeitem.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apeitem.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apeitem.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apeitem.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -76,12 +76,12 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apefile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apefooter.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apeitem.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apeproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apeproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apetag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apefile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apefooter.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apeitem.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apeproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apeproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apetag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apetag.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -101,10 +101,10 @@
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
  ../3dparty/taglib/taglib/toolkit/tutils.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apefooter.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apeitem.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apetag.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ape/apetag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apefooter.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apeitem.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apetag.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ape/apetag.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.o
@@ -126,13 +126,13 @@
  ../3dparty/taglib/taglib/toolkit/tmap.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfattribute.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfattribute.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asffile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfpicture.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asftag.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfutils.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfattribute.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfattribute.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asffile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfpicture.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asftag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -157,13 +157,13 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfattribute.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asffile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asffile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfpicture.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asftag.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfutils.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfattribute.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asffile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asffile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfpicture.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asftag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -184,13 +184,13 @@
  ../3dparty/taglib/taglib/toolkit/tmap.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfattribute.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asffile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfpicture.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfpicture.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asftag.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfutils.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfattribute.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asffile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfpicture.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfpicture.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asftag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -199,8 +199,8 @@
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tdebug.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
@@ -220,10 +220,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfattribute.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asfpicture.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asftag.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/asf/asftag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfattribute.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asfpicture.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asftag.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/asf/asftag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.o
  ../3dparty/taglib/taglib/ape/apeproperties.h
@@ -244,8 +244,8 @@
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/trueaudio/trueaudioproperties.h
  ../3dparty/taglib/taglib/wavpack/wavpackproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/audioproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/audioproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/audioproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/audioproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o
  ../3dparty/taglib/taglib/ape/apefile.h
@@ -321,9 +321,9 @@
  ../3dparty/taglib/taglib/wavpack/wavpackproperties.h
  ../3dparty/taglib/taglib/xm/xmfile.h
  ../3dparty/taglib/taglib/xm/xmproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/audioproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/fileref.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/fileref.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/audioproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/fileref.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/fileref.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -352,12 +352,12 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacpicture.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacunknownmetadatablock.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacmetadatablock.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacpicture.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacunknownmetadatablock.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacmetadatablock.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -367,8 +367,8 @@
  ../3dparty/taglib/taglib/toolkit/tlist.h
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacmetadatablock.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacmetadatablock.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacmetadatablock.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacpicture.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -379,9 +379,9 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacpicture.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacpicture.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacmetadatablock.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacpicture.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacpicture.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -396,11 +396,11 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacpicture.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacmetadatablock.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacpicture.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacunknownmetadatablock.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -411,9 +411,9 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacunknownmetadatablock.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/flac/flacunknownmetadatablock.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacmetadatablock.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacunknownmetadatablock.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/flac/flacunknownmetadatablock.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -436,16 +436,16 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/it/itfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/it/itfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/it/itproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/it/itfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/it/itfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/it/itproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/it/itproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/it/itproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/it/itproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/it/itproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -465,12 +465,12 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mod/modfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mod/modfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mod/modfilebase.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mod/modfileprivate.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mod/modproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mod/modtag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mod/modfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mod/modfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mod/modfilebase.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mod/modfileprivate.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mod/modproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mod/modtag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfilebase.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -484,15 +484,15 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mod/modfilebase.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mod/modfilebase.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mod/modfilebase.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mod/modfilebase.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mod/modproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mod/modproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mod/modproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mod/modproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modtag.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -508,8 +508,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mod/modtag.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mod/modtag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mod/modtag.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mod/modtag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4atom.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -523,8 +523,8 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4atom.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4atom.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4atom.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4atom.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4coverart.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -538,9 +538,9 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4atom.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4coverart.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4atom.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4coverart.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4coverart.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -561,13 +561,13 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4atom.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4file.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4file.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4item.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4properties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4tag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4atom.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4coverart.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4file.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4file.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4item.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4properties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4tag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4item.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -583,10 +583,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4atom.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4item.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4item.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4atom.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4coverart.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4item.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4item.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4properties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -605,13 +605,13 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4atom.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4file.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4item.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4properties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4properties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4tag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4atom.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4coverart.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4file.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4item.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4properties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4properties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4tag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4tag.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
@@ -631,11 +631,11 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4atom.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4item.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4tag.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mp4/mp4tag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4atom.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4coverart.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4item.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4tag.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mp4/mp4tag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.o
  ../3dparty/taglib/taglib/ape/apefooter.h
@@ -663,9 +663,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpc/mpcfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpc/mpcfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpc/mpcproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpc/mpcfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpc/mpcfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpc/mpcproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -680,9 +680,9 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpc/mpcfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpc/mpcproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpc/mpcproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpc/mpcfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpc/mpcproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpc/mpcproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1genres.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -696,8 +696,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1tag.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -715,9 +715,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
@@ -733,8 +733,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
@@ -756,8 +756,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
@@ -779,8 +779,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
@@ -802,8 +802,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
@@ -819,8 +819,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/ownershipframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
@@ -841,8 +841,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/ownershipframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/ownershipframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/ownershipframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/ownershipframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/podcastframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
@@ -850,8 +850,8 @@
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/podcastframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/podcastframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/podcastframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/podcastframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/popularimeterframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
@@ -860,8 +860,8 @@
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tdebug.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/privateframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
@@ -881,8 +881,8 @@
  ../3dparty/taglib/taglib/toolkit/tmap.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/privateframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/privateframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/privateframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/privateframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/relativevolumeframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
@@ -896,8 +896,8 @@
  ../3dparty/taglib/taglib/toolkit/tmap.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
@@ -919,8 +919,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
@@ -942,8 +942,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
@@ -965,8 +965,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/uniquefileidentifierframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
@@ -988,8 +988,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unknownframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
@@ -997,8 +997,8 @@
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
@@ -1020,8 +1020,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/urllinkframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
@@ -1043,25 +1043,25 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2extendedheader.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -1079,19 +1079,19 @@
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
  ../3dparty/taglib/taglib/toolkit/tzlib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2tag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2tag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
@@ -1110,29 +1110,29 @@
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
  ../3dparty/taglib/taglib/toolkit/tzlib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/ownershipframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/podcastframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/privateframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/ownershipframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/podcastframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/privateframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -1140,18 +1140,18 @@
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tdebug.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2synchdata.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
@@ -1172,20 +1172,20 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2tag.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2tag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2tag.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/id3v2/id3v2tag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.o
  ../3dparty/taglib/taglib/ape/apefooter.h
@@ -1216,11 +1216,11 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegheader.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegutils.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegheader.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegheader.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -1232,9 +1232,9 @@
  ../3dparty/taglib/taglib/toolkit/tiostream.h
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegheader.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegheader.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegutils.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegheader.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegheader.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.o
  ../3dparty/taglib/taglib/ape/apefooter.h
@@ -1257,11 +1257,11 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegheader.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/xingheader.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegheader.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/xingheader.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1274,11 +1274,11 @@
  ../3dparty/taglib/taglib/toolkit/tfile.h
  ../3dparty/taglib/taglib/toolkit/tiostream.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegheader.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/mpegproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/xingheader.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/mpeg/xingheader.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegheader.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/mpegproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/xingheader.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/mpeg/xingheader.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1304,8 +1304,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/flac/oggflacfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/flac/oggflacfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/flac/oggflacfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/flac/oggflacfile.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggfile.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -1322,10 +1322,10 @@
  ../3dparty/taglib/taglib/toolkit/tmap.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/oggfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/oggfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/oggpage.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/oggpageheader.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/oggfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/oggfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/oggpage.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/oggpageheader.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpage.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -1340,10 +1340,10 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/oggfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/oggpage.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/oggpage.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/oggpageheader.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/oggfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/oggpage.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/oggpage.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/oggpageheader.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpageheader.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -1358,9 +1358,9 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/oggfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/oggpageheader.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/oggpageheader.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/oggfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/oggpageheader.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/oggpageheader.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1385,9 +1385,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/opus/opusfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/opus/opusfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/opus/opusproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/opus/opusfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/opus/opusfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/opus/opusproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1411,9 +1411,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/opus/opusfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/opus/opusproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/opus/opusproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/opus/opusfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/opus/opusproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/opus/opusproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1438,9 +1438,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/speex/speexfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/speex/speexfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/speex/speexproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/speex/speexfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/speex/speexfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/speex/speexproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1464,9 +1464,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/speex/speexfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/speex/speexproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/speex/speexproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/speex/speexfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/speex/speexproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/speex/speexproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1491,9 +1491,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/vorbis/vorbisfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/vorbis/vorbisfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/vorbis/vorbisproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1517,9 +1517,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/vorbis/vorbisfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/vorbis/vorbisproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/vorbis/vorbisproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/xiphcomment.cpp.o
  ../3dparty/taglib/taglib/flac/flacmetadatablock.h
@@ -1539,7 +1539,7 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/ogg/xiphcomment.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/ogg/xiphcomment.cpp
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1566,9 +1566,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/aiff/aifffile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/aiff/aifffile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/aiff/aiffproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/aiff/aifffile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/aiff/aifffile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/aiff/aiffproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1591,9 +1591,9 @@
  ../3dparty/taglib/taglib/toolkit/tmap.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/aiff/aifffile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/aiff/aiffproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/aiff/aiffproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/aiff/aifffile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/aiff/aiffproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/aiff/aiffproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/rifffile.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -1604,9 +1604,9 @@
  ../3dparty/taglib/taglib/toolkit/tfile.h
  ../3dparty/taglib/taglib/toolkit/tiostream.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/rifffile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/rifffile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/riffutils.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/rifffile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/rifffile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/riffutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/infotag.cpp.o
  ../3dparty/taglib/taglib/riff/riffutils.h
@@ -1625,8 +1625,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/wav/infotag.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/wav/infotag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/wav/infotag.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/wav/infotag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1654,10 +1654,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/wav/infotag.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/wav/wavfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/wav/wavfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/wav/wavproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/wav/infotag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/wav/wavfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/wav/wavfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/wav/wavproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1682,10 +1682,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/wav/infotag.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/wav/wavfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/wav/wavproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/riff/wav/wavproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/wav/infotag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/wav/wavfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/wav/wavproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/riff/wav/wavproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1708,16 +1708,16 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/s3m/s3mfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/s3m/s3mfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/s3m/s3mproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/s3m/s3mfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/s3m/s3mfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/s3m/s3mproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/s3m/s3mproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/s3m/s3mproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/s3m/s3mproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/s3m/s3mproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.o
  ../3dparty/taglib/taglib/toolkit/taglib.h
@@ -1731,9 +1731,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/tag.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/tag.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/taglib_export.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/tag.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/tag.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/taglib_export.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o
  ../3dparty/taglib/taglib/ape/apeitem.h
@@ -1762,7 +1762,7 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/tagunion.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/tagunion.cpp
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o
  ../3dparty/taglib/taglib/ape/apeitem.h
@@ -1784,8 +1784,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/tagutils.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/tagutils.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/tagutils.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/tagutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevector.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -1794,48 +1794,48 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tutils.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevector.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevector.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevector.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorlist.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tlist.tcc
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/taglib.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevectorlist.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tlist.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tlist.tcc
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/trefcounter.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorstream.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevectorstream.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevectorstream.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tdebug.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tiostream.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/taglib.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevectorstream.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevectorstream.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tdebug.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tiostream.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstring.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebug.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tdebug.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tdebug.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tdebuglistener.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tutils.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/taglib.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tdebug.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tdebug.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tdebuglistener.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstring.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tutils.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebuglistener.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tdebuglistener.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tdebuglistener.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/taglib.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tdebuglistener.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tdebuglistener.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstring.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.o
  ../3dparty/taglib/taglib/ape/apefile.h
@@ -1900,59 +1900,59 @@
  ../3dparty/taglib/taglib/wavpack/wavpackproperties.h
  ../3dparty/taglib/taglib/xm/xmfile.h
  ../3dparty/taglib/taglib/xm/xmproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tdebug.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tfilestream.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tiostream.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tmap.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tmap.tcc
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tpropertymap.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstringlist.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/taglib.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tdebug.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tfilestream.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tiostream.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tmap.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tmap.tcc
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tpropertymap.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/trefcounter.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstring.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstringlist.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfilestream.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tdebug.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tfilestream.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tfilestream.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tiostream.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/taglib.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tdebug.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tfilestream.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tfilestream.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tiostream.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstring.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tiostream.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tiostream.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tiostream.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tiostream.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tpropertymap.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tlist.tcc
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tmap.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tmap.tcc
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tpropertymap.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tpropertymap.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstringlist.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/taglib.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tlist.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tlist.tcc
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tmap.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tmap.tcc
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tpropertymap.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tpropertymap.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/trefcounter.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstring.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstringlist.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/trefcounter.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/trefcounter.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/taglib.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/trefcounter.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/trefcounter.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o
@@ -1967,22 +1967,22 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
  ../3dparty/taglib/taglib/toolkit/tutils.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstring.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstring.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstring.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstringlist.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tlist.tcc
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstringlist.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tstringlist.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/taglib.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tlist.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tlist.tcc
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/trefcounter.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstring.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstringlist.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tstringlist.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tzlib.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -1990,8 +1990,8 @@
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tdebug.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tzlib.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/toolkit/tzlib.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tzlib.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/toolkit/tzlib.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.o
@@ -2020,9 +2020,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/trueaudio/trueaudiofile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/trueaudio/trueaudiofile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/trueaudio/trueaudiofile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/trueaudio/trueaudiofile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudioproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -2034,9 +2034,9 @@
  ../3dparty/taglib/taglib/toolkit/tfile.h
  ../3dparty/taglib/taglib/toolkit/tiostream.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/trueaudio/trueaudiofile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/trueaudio/trueaudiofile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o
  ../3dparty/taglib/taglib/ape/apefooter.h
@@ -2064,9 +2064,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/wavpack/wavpackfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/wavpack/wavpackfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/wavpack/wavpackproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/wavpack/wavpackfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/wavpack/wavpackfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/wavpack/wavpackproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -2078,9 +2078,9 @@
  ../3dparty/taglib/taglib/toolkit/tfile.h
  ../3dparty/taglib/taglib/toolkit/tiostream.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/wavpack/wavpackfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/wavpack/wavpackproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/wavpack/wavpackproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/wavpack/wavpackfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/wavpack/wavpackproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/wavpack/wavpackproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -2103,9 +2103,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/xm/xmfile.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/xm/xmfile.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/xm/xmproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/xm/xmfile.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/xm/xmfile.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/xm/xmproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -2113,6 +2113,6 @@
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/xm/xmproperties.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/taglib/xm/xmproperties.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/xm/xmproperties.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/taglib/xm/xmproperties.h
  3dparty/taglib/taglib_config.h

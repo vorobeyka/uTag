@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vorobey/ucode/utag
+CMAKE_SOURCE_DIR = /home/vorobey/ucode/myUtag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vorobey/ucode/utag/build
+CMAKE_BINARY_DIR = /home/vorobey/ucode/myUtag/build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/vorobey/ucode/utag/build
 include 3dparty/taglib/CMakeFiles/uninstall.dir/progress.make
 
 3dparty/taglib/CMakeFiles/uninstall:
-	cd /home/vorobey/ucode/utag/build/3dparty/taglib && /usr/bin/cmake -P /home/vorobey/ucode/utag/build/3dparty/taglib/cmake_uninstall.cmake
+	cd /home/vorobey/ucode/myUtag/build/3dparty/taglib && /usr/bin/cmake -P /home/vorobey/ucode/myUtag/build/3dparty/taglib/cmake_uninstall.cmake
 
 uninstall: 3dparty/taglib/CMakeFiles/uninstall
 uninstall: 3dparty/taglib/CMakeFiles/uninstall.dir/build.make
@@ -67,10 +67,10 @@ uninstall: 3dparty/taglib/CMakeFiles/uninstall.dir/build.make
 .PHONY : 3dparty/taglib/CMakeFiles/uninstall.dir/build
 
 3dparty/taglib/CMakeFiles/uninstall.dir/clean:
-	cd /home/vorobey/ucode/utag/build/3dparty/taglib && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/vorobey/ucode/myUtag/build/3dparty/taglib && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : 3dparty/taglib/CMakeFiles/uninstall.dir/clean
 
 3dparty/taglib/CMakeFiles/uninstall.dir/depend:
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vorobey/ucode/utag /home/vorobey/ucode/utag/3dparty/taglib /home/vorobey/ucode/utag/build /home/vorobey/ucode/utag/build/3dparty/taglib /home/vorobey/ucode/utag/build/3dparty/taglib/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vorobey/ucode/myUtag /home/vorobey/ucode/myUtag/3dparty/taglib /home/vorobey/ucode/myUtag/build /home/vorobey/ucode/myUtag/build/3dparty/taglib /home/vorobey/ucode/myUtag/build/3dparty/taglib/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3dparty/taglib/CMakeFiles/uninstall.dir/depend
 

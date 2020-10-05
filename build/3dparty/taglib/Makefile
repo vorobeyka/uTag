@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vorobey/ucode/utag
+CMAKE_SOURCE_DIR = /home/vorobey/ucode/myUtag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vorobey/ucode/utag/build
+CMAKE_BINARY_DIR = /home/vorobey/ucode/myUtag/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/utag/build/CMakeFiles /home/vorobey/ucode/utag/build/3dparty/taglib/CMakeFiles/progress.marks
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/utag/build/CMakeFiles 0
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/myUtag/build/CMakeFiles /home/vorobey/ucode/myUtag/build/3dparty/taglib/CMakeFiles/progress.marks
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/myUtag/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/clean
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/preinstall
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/preinstall
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3dparty/taglib/CMakeFiles/uninstall.dir/rule:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/CMakeFiles/uninstall.dir/rule
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/CMakeFiles/uninstall.dir/rule
 .PHONY : 3dparty/taglib/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ uninstall: 3dparty/taglib/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/CMakeFiles/uninstall.dir/build.make 3dparty/taglib/CMakeFiles/uninstall.dir/build
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/CMakeFiles/uninstall.dir/build.make 3dparty/taglib/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 # Convenience name for target.
 3dparty/taglib/CMakeFiles/docs.dir/rule:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/CMakeFiles/docs.dir/rule
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/CMakeFiles/docs.dir/rule
 .PHONY : 3dparty/taglib/CMakeFiles/docs.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ docs: 3dparty/taglib/CMakeFiles/docs.dir/rule
 
 # fast build rule for target.
 docs/fast:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/CMakeFiles/docs.dir/build.make 3dparty/taglib/CMakeFiles/docs.dir/build
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/CMakeFiles/docs.dir/build.make 3dparty/taglib/CMakeFiles/docs.dir/build
 .PHONY : docs/fast
 
 # Help Target
@@ -211,6 +211,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

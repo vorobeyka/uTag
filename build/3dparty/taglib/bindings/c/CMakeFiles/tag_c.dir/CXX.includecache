@@ -452,7 +452,7 @@ taglib_export.h
 audioproperties.h
 ../3dparty/taglib/taglib/wavpack/audioproperties.h
 
-/home/vorobey/ucode/utag/3dparty/taglib/bindings/c/tag_c.cpp
+/home/vorobey/ucode/myUtag/3dparty/taglib/bindings/c/tag_c.cpp
 config.h
 -
 stdlib.h
@@ -488,9 +488,9 @@ string.h
 id3v2framefactory.h
 -
 tag_c.h
-/home/vorobey/ucode/utag/3dparty/taglib/bindings/c/tag_c.h
+/home/vorobey/ucode/myUtag/3dparty/taglib/bindings/c/tag_c.h
 
-/home/vorobey/ucode/utag/3dparty/taglib/bindings/c/tag_c.h
+/home/vorobey/ucode/myUtag/3dparty/taglib/bindings/c/tag_c.h
 
 3dparty/taglib/config.h
 

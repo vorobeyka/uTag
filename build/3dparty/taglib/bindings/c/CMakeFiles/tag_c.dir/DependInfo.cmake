@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vorobey/ucode/utag/3dparty/taglib/bindings/c/tag_c.cpp" "/home/vorobey/ucode/utag/build/3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o"
+  "/home/vorobey/ucode/myUtag/3dparty/taglib/bindings/c/tag_c.cpp" "/home/vorobey/ucode/myUtag/build/3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -36,7 +36,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/vorobey/ucode/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/DependInfo.cmake"
+  "/home/vorobey/ucode/myUtag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

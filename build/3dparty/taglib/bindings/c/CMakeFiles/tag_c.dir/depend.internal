@@ -54,7 +54,7 @@
  ../3dparty/taglib/taglib/trueaudio/trueaudioproperties.h
  ../3dparty/taglib/taglib/wavpack/wavpackfile.h
  ../3dparty/taglib/taglib/wavpack/wavpackproperties.h
- /home/vorobey/ucode/utag/3dparty/taglib/bindings/c/tag_c.cpp
- /home/vorobey/ucode/utag/3dparty/taglib/bindings/c/tag_c.h
+ /home/vorobey/ucode/myUtag/3dparty/taglib/bindings/c/tag_c.cpp
+ /home/vorobey/ucode/myUtag/3dparty/taglib/bindings/c/tag_c.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h

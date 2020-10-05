@@ -1,8 +1,8 @@
-if (NOT EXISTS "/home/vorobey/ucode/utag/build/3dparty/taglib/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/home/vorobey/ucode/utag/build/3dparty/taglib/install_manifest.txt\"")
+if (NOT EXISTS "/home/vorobey/ucode/myUtag/build/3dparty/taglib/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/home/vorobey/ucode/myUtag/build/3dparty/taglib/install_manifest.txt\"")
 endif()
 
-file(READ "/home/vorobey/ucode/utag/build/3dparty/taglib/install_manifest.txt" files)
+file(READ "/home/vorobey/ucode/myUtag/build/3dparty/taglib/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach (file ${files})
   message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

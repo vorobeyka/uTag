@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vorobey/ucode/utag
+CMAKE_SOURCE_DIR = /home/vorobey/ucode/myUtag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vorobey/ucode/utag/build
+CMAKE_BINARY_DIR = /home/vorobey/ucode/myUtag/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/utag/build/CMakeFiles /home/vorobey/ucode/utag/build/3dparty/taglib/bindings/c/CMakeFiles/progress.marks
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/utag/build/CMakeFiles 0
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/myUtag/build/CMakeFiles /home/vorobey/ucode/myUtag/build/3dparty/taglib/bindings/c/CMakeFiles/progress.marks
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vorobey/ucode/myUtag/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/clean
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/preinstall
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/preinstall
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/rule:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/rule
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/rule
 .PHONY : 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ tag_c: 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/rule
 
 # fast build rule for target.
 tag_c/fast:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build
 .PHONY : tag_c/fast
 
 tag_c.o: tag_c.cpp.o
@@ -177,7 +177,7 @@ tag_c.o: tag_c.cpp.o
 
 # target to build an object file
 tag_c.cpp.o:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o
 .PHONY : tag_c.cpp.o
 
 tag_c.i: tag_c.cpp.i
@@ -186,7 +186,7 @@ tag_c.i: tag_c.cpp.i
 
 # target to preprocess a source file
 tag_c.cpp.i:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.i
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.i
 .PHONY : tag_c.cpp.i
 
 tag_c.s: tag_c.cpp.s
@@ -195,7 +195,7 @@ tag_c.s: tag_c.cpp.s
 
 # target to generate assembly for a file
 tag_c.cpp.s:
-	cd /home/vorobey/ucode/utag/build && $(MAKE) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.s
+	cd /home/vorobey/ucode/myUtag/build && $(MAKE) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.s
 .PHONY : tag_c.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vorobey/ucode/utag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vorobey/ucode/myUtag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
