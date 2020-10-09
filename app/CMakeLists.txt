@@ -7,11 +7,6 @@ set(TAGLIB_PATH "../3dparty/taglib/taglib")
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
 
-if(APPLE)
-    set(CMAKE_PREFIX_PATH="~/.brew/Cellar/qt/5.15.1//lib/cmake:$CMAKE_PREFIX_PATH")
-endif()
-
-
 project(${NAME})
 
 add_compile_options(
@@ -29,10 +24,10 @@ find_package(Qt5 REQUIRED Qml Quick Gui)
 qt5_add_resources(qml_QRC src/qml/qml.qrc)
 
 set(SOURCE 
-	${SOURCE}
+	#${SOURCE}
     src/main.cpp
-    src/appcore.cpp
-    src/AudioReader.cpp
+    #src/appcore.cpp
+    #src/AudioReader.cpp
 )
 
 include_directories(
@@ -59,10 +54,10 @@ include_directories(
 
 add_executable(${NAME} ${SOURCE_EXE} ${qml_QRC})
 
-#add_subdirectory(src)
+add_subdirectory(src)
 
 target_link_libraries(${NAME} tag)
 
-target_link_libraries(${NAME} -lpthread Qt5::Widgets Qt5::Core Qt5::Qml Qt5::Quick)
+target_link_libraries(${NAME} Qt5::Core Qt5::Qml Qt5::Quick)
 
 #file(COPY ./resources DESTINATION ./)

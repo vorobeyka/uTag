@@ -34,6 +34,7 @@ public:
 signals:
     void setFoldersList(QStringList list);
     void sendFolderError(QString invalidDir);
+    // void setFolderName(QString path);
 
 public slots:
     void readFolders(QString = "");

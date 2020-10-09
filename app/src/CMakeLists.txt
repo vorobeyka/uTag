@@ -1,7 +1,9 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.16)
 
-set(CMAKE_CXX_STANDARD 17)
+set(NAME app)
 
-file(SRC *.cpp)
+find_package(Qt5 COMPONENTS Core Widgets REQUIRED)
+file(GLOB SOURCE *.cpp)
 
-add_library(app ${SRC})
+add_library(${NAME} STATIC ${SOURCE})
+target_link_libraries(${NAME} Qt5::Core Qt5::Qml Qt5::Quick)

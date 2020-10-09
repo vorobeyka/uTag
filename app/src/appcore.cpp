@@ -12,13 +12,13 @@ AppCore::AppCore(AudioReader* audioReader, QString dirPath, QObject* parent)
             m_dirPath = dirPath;
         }
     }
-    m_themesData.setFileName("./build/ThemesData.txt");
+    m_themesData.setFileName("ThemesData.txt");
     m_themesData.open(QIODevice::ReadWrite);
     if (m_themesData.isOpen()) {
         QTextStream stream(&m_themesData);
 
         if (stream.atEnd()) {
-            stream << "white" << "\n" << "#ff793f" << "\n" << "black" << "\n";
+            stream << "#2e2f30" << "\n" << "#ff793f" << "\n" << "white" << "\n";
         } else {
             m_generalColor = stream.readLine();
             m_themeColor = stream.readLine();
@@ -134,6 +134,7 @@ void AppCore::readDialogFolders(QString folder) {
     m_dirInfo.dirsName.clear();
     readDir(parsedFolder);
     emit setFoldersList(m_dirInfo.dirsName);
+    // emit setFolderName(m_dirPath);
 }
 
 int AppCore::getRecurs() const {

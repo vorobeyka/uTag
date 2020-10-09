@@ -21,8 +21,8 @@ ApplicationWindow {
     property string _folderName: "def"
     // property string _textColor: _darkBgColor ? "white" : "black"
     property string _textColor: ""
-    property string _settingIconPath: "./resources/settings-icon.png"
-    property string _folderIconPath: "./resources/folder-icon.png"
+    property string _settingIconPath: "qrc:/resources/settings-icon.png"
+    property string _folderIconPath: "qrc:/resources/folder-icon.png"
 
     property bool _darkBgColor: true
     property bool toolButtonClicked: false
@@ -52,7 +52,7 @@ ApplicationWindow {
             title: "Choose a folder"
             folder: shortcuts.home
             selectFolder: true
-            onAccepted: appCore.readDialogFolders(fileUrl)
+            onAccepted: { appCore.readDialogFolders(fileUrl); _folderName = appCore.dirName }
             visible: false
         }
 
@@ -69,6 +69,7 @@ ApplicationWindow {
                 Row {
                     anchors.fill: parent
 
+                    
                     Text {
                         anchors.verticalCenter: parent.verticalCenter
                         text: " Folders "
@@ -76,12 +77,18 @@ ApplicationWindow {
                         color: _textColor
                     }
 
-                    Text {
+                    Image {
                         anchors.verticalCenter: parent.verticalCenter
-                        text: "\u2630"
-                        font.pointSize: 20
-                        color: _textColor
+                        height: parent.height
+                        width: height
+                        source: _folderIconPath
                     }
+                    // Text {
+                    //     anchors.verticalCenter: parent.verticalCenter
+                    //     text: "\u2630"
+                    //     font.pointSize: 20
+                    //     color: _textColor
+                    // }
                 }
 
                 onClicked: { _dirsDrawer.open() }
@@ -96,7 +103,7 @@ ApplicationWindow {
 
                 Image {
                     id: _folderImg
-                    source: "./resources/open-folder-icon.png"
+                    source: "qrc:/resources/open-folder-icon.png"
                     height: parent.height
                     width: height
                     anchors.centerIn: parent
